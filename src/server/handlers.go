@@ -31,8 +31,6 @@ func (s *Server) IncomingSmsHandler(w http.ResponseWriter, r *http.Request) {
 		return
 	}
 
-	r.ParseForm()
-
 	from := r.FormValue("from")
 	if from == "" {
 		s.logger.Error("missing field in request body: from")

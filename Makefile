@@ -15,3 +15,9 @@ run:
     --env-file .env \
     --publish 8080:8080 \
     nps-alerts
+
+test:
+	go test ./src/... \
+		-covermode=atomic \
+		-timeout=10s \
+		-race 
