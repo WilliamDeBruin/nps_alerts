@@ -1,0 +1,3759 @@
+[
+    {
+        "unitName": "Abraham Lincoln Birthplace",
+        "unitCode": "abli",
+        "unitDesignation": "NHP",
+        "state": [
+            "KY"
+        ],
+        "estDate": ""
+    },
+    {
+        "unitName": "Acadia",
+        "unitCode": "acad",
+        "unitDesignation": "NP",
+        "state": [
+            "ME"
+        ],
+        "estDate": "1919-02-26"
+    },
+    {
+        "unitName": "Adams",
+        "unitCode": "adam",
+        "unitDesignation": "NHP",
+        "state": [
+            "MA"
+        ],
+        "estDate": "",
+        "estDate": ""
+    },
+    {
+        "unitName": "African Burial Ground",
+        "unitCode": "afbg",
+        "unitDesignation": "NM",
+        "state": [
+            "NY"
+        ],
+        "estDate": ""
+    },
+    {
+        "unitName": "Agate Fossil Beds",
+        "unitCode": "agfo",
+        "unitDesignation": "NM",
+        "state": [
+            "NE"
+        ],
+        "estDate": ""
+    },
+    {
+        "unitName": "Alagnak National Wild and Scenic River",
+        "unitCode": "alag",
+        "unitDesignation": "National Wild and Scenic River",
+        "state": [
+            "AK"
+        ],
+        "estDate": ""
+    },
+    {
+        "unitName": "Alibates Flint Quarries",
+        "unitCode": "alfl",
+        "unitDesignation": "NM",
+        "state": [
+            "TX"
+        ],
+        "estDate": ""
+    },
+    {
+        "unitName": "Allegheny Portage Railroad",
+        "unitCode": "alpo",
+        "unitDesignation": "NHS",
+        "state": [
+            "PA"
+        ],
+        "estDate": ""
+    },
+    {
+        "unitName": "Amistad",
+        "unitCode": "amis",
+        "unitDesignation": "NRA",
+        "state": [
+            "TX"
+        ],
+        "estDate": ""
+    },
+    {
+        "unitName": "Andersonville",
+        "unitCode": "ande",
+        "unitDesignation": "NHS",
+        "state": [
+            "GA"
+        ],
+        "estDate": ""
+    },
+    {
+        "unitName": "Andrew Johnson",
+        "unitCode": "anjo",
+        "unitDesignation": "NHS",
+        "state": [
+            "TN"
+        ],
+        "estDate": ""
+    },
+    {
+        "unitName": "Aniakchak National Monument",
+        "unitCode": "ania",
+        "unitDesignation": "NM",
+        "state": [
+            "AK"
+        ],
+        "estDate": ""
+    },
+    {
+        "unitName": "Aniakchak National Preserve",
+        "unitCode": "ania",
+        "unitDesignation": "NPRES",
+        "state": [
+            "AK"
+        ],
+        "estDate": ""
+    },
+    {
+        "unitName": "Antietam",
+        "unitCode": "anti",
+        "unitDesignation": "NB",
+        "state": [
+            "MD"
+        ],
+        "estDate": ""
+    },
+    {
+        "unitName": "Apostle Islands",
+        "unitCode": "apis",
+        "unitDesignation": "NL",
+        "state": [
+            "WI"
+        ],
+        "estDate": ""
+    },
+    {
+        "unitName": "Appalachian National Scenic Trail",
+        "unitCode": "appa",
+        "unitDesignation": "NST",
+        "state": [
+            "CT",
+            "GA",
+            "MA",
+            "MD",
+            "ME",
+            "NC",
+            "NH",
+            "NJ",
+            "NY",
+            "PA",
+            "TN",
+            "VA",
+            "VT",
+            "WV"
+        ],
+        "estDate": ""
+    },
+    {
+        "unitName": "Appomattox Court House",
+        "unitCode": "apco",
+        "unitDesignation": "NHP",
+        "state": [
+            "VA"
+        ],
+        "estDate": ""
+    },
+    {
+        "unitName": "Arches",
+        "unitCode": "arch",
+        "unitDesignation": "NP",
+        "state": [
+            "UT"
+        ],
+        "estDate": "1971-11-12"
+    },
+    {
+        "unitName": "Arkansas Post",
+        "unitCode": "arpo",
+        "unitDesignation": "NMEM",
+        "state": [
+            "AR"
+        ],
+        "estDate": ""
+    },
+    {
+        "unitName": "Arlington House",
+        "unitCode": "arho",
+        "unitDesignation": "NMEM",
+        "state": [
+            "VA"
+        ],
+        "estDate": ""
+    },
+    {
+        "unitName": "Assateague Island",
+        "unitCode": "asis",
+        "unitDesignation": "NS",
+        "state": [
+            "MD",
+            "VA"
+        ],
+        "estDate": ""
+    },
+    {
+        "unitName": "Aztec Ruins",
+        "unitCode": "azru",
+        "unitDesignation": "NM",
+        "state": [
+            "NM"
+        ],
+        "estDate": ""
+    },
+    {
+        "unitName": "Badlands",
+        "unitCode": "badl",
+        "unitDesignation": "NP",
+        "state": [
+            "SD"
+        ],
+        "estDate": "1978-11-10"
+    },
+    {
+        "unitName": "Bandelier",
+        "unitCode": "band",
+        "unitDesignation": "NM",
+        "state": [
+            "NM"
+        ],
+        "estDate": ""
+    },
+    {
+        "unitName": "Belmont-Paul Women's Equality",
+        "unitCode": "",
+        "unitDesignation": "NM",
+        "state": [
+            "DC"
+        ],
+        "estDate": ""
+    },
+    {
+        "unitName": "Bent's Old Fort",
+        "unitCode": "beol",
+        "unitDesignation": "NHS",
+        "state": [
+            "CO"
+        ],
+        "estDate": ""
+    },
+    {
+        "unitName": "Bering Land Bridge",
+        "unitCode": "bela",
+        "unitDesignation": "NPRES",
+        "state": [
+            "AK"
+        ],
+        "estDate": ""
+    },
+    {
+        "unitName": "Big Bend",
+        "unitCode": "bibe",
+        "unitDesignation": "NP",
+        "state": [
+            "TX"
+        ],
+        "estDate": "1944-06-12"
+    },
+    {
+        "unitName": "Big Cypress",
+        "unitCode": "bicy",
+        "unitDesignation": "NPRES",
+        "state": [
+            "FL"
+        ],
+        "estDate": ""
+    },
+    {
+        "unitName": "Big Hole",
+        "unitCode": "biho",
+        "unitDesignation": "NB",
+        "state": [
+            "MT"
+        ],
+        "estDate": ""
+    },
+    {
+        "unitName": "Big South Fork National River and Recreation Area",
+        "unitCode": "biso",
+        "unitDesignation": "National River",
+        "state": [
+            "TN",
+            "KY"
+        ],
+        "estDate": ""
+    },
+    {
+        "unitName": "Big Thicket",
+        "unitCode": "bith",
+        "unitDesignation": "NPRES",
+        "state": [
+            "TX"
+        ],
+        "estDate": ""
+    },
+    {
+        "unitName": "Bighorn Canyon",
+        "unitCode": "bica",
+        "unitDesignation": "NRA",
+        "state": [
+            "MT",
+            "WY"
+        ],
+        "estDate": ""
+    },
+    {
+        "unitName": "Biscayne",
+        "unitCode": "bisc",
+        "unitDesignation": "NP",
+        "state": [
+            "FL"
+        ],
+        "estDate": "1980-06-28"
+    },
+    {
+        "unitName": "Black Canyon of the Gunnison",
+        "unitCode": "blca",
+        "unitDesignation": "NP",
+        "state": [
+            "CO"
+        ],
+        "estDate": "1999-10-21"
+    },
+    {
+        "unitName": "Blackstone River Valley",
+        "unitCode": "blac",
+        "unitDesignation": "NHP",
+        "state": [
+            "RI",
+            "MA"
+        ],
+        "estDate": ""
+    },
+    {
+        "unitName": "Blue Ridge Parkway",
+        "unitCode": "blri",
+        "unitDesignation": "PKWY",
+        "state": [
+            "NC",
+            "VA"
+        ],
+        "estDate": ""
+    },
+    {
+        "unitName": "Bluestone National Scenic River",
+        "unitCode": "blue",
+        "unitDesignation": "National Wild and Scenic River",
+        "state": [
+            "WV"
+        ],
+        "estDate": ""
+    },
+    {
+        "unitName": "Booker T. Washington",
+        "unitCode": "bowa",
+        "unitDesignation": "NM",
+        "state": [
+            "VA"
+        ],
+        "estDate": ""
+    },
+    {
+        "unitName": "Boston",
+        "unitCode": "bost",
+        "unitDesignation": "NHP",
+        "state": [
+            "MA"
+        ],
+        "estDate": ""
+    },
+    {
+        "unitName": "Boston African American",
+        "unitCode": "boaf",
+        "unitDesignation": "NHS",
+        "state": [
+            "MA"
+        ],
+        "estDate": ""
+    },
+    {
+        "unitName": "Boston Harbor Islands",
+        "unitCode": "boha",
+        "unitDesignation": "NRA",
+        "state": [
+            "MA"
+        ],
+        "estDate": ""
+    },
+    {
+        "unitName": "Brices Cross Roads",
+        "unitCode": "brcr",
+        "unitDesignation": "National Battlefield Site",
+        "state": [
+            "MS"
+        ],
+        "estDate": ""
+    },
+    {
+        "unitName": "Brown v. Board of Education",
+        "unitCode": "brvb",
+        "unitDesignation": "NHS",
+        "state": [
+            "KS"
+        ],
+        "estDate": ""
+    },
+    {
+        "unitName": "Bryce Canyon",
+        "unitCode": "brca",
+        "unitDesignation": "NP",
+        "state": [
+            "UT"
+        ],
+        "estDate": "1928-02-25"
+    },
+    {
+        "unitName": "Buck Island Reef",
+        "unitCode": "buis",
+        "unitDesignation": "NM",
+        "state": [
+            "VI"
+        ],
+        "estDate": ""
+    },
+    {
+        "unitName": "Buffalo National River",
+        "unitCode": "buff",
+        "unitDesignation": "National River",
+        "state": [
+            "AR"
+        ],
+        "estDate": ""
+    },
+    {
+        "unitName": "Cabrillo",
+        "unitCode": "cabr",
+        "unitDesignation": "NM",
+        "state": [
+            "CA"
+        ],
+        "estDate": ""
+    },
+    {
+        "unitName": "Canaveral",
+        "unitCode": "cana",
+        "unitDesignation": "NS",
+        "state": [
+            "FL"
+        ],
+        "estDate": ""
+    },
+    {
+        "unitName": "Cane River Creole NHP and Heritage Area",
+        "unitCode": "cari",
+        "unitDesignation": "NHP",
+        "state": [
+            "LA"
+        ],
+        "estDate": ""
+    },
+    {
+        "unitName": "Canyon de Chelly",
+        "unitCode": "cach",
+        "unitDesignation": "NM",
+        "state": [
+            "AZ"
+        ],
+        "estDate": ""
+    },
+    {
+        "unitName": "Canyonlands",
+        "unitCode": "cany",
+        "unitDesignation": "NP",
+        "state": [
+            "UT"
+        ],
+        "estDate": "1964-09-12"
+    },
+    {
+        "unitName": "Cape Cod",
+        "unitCode": "caco",
+        "unitDesignation": "NS",
+        "state": [
+            "MA"
+        ],
+        "estDate": ""
+    },
+    {
+        "unitName": "Cape Hatteras",
+        "unitCode": "caha",
+        "unitDesignation": "NS",
+        "state": [
+            "NC"
+        ],
+        "estDate": ""
+    },
+    {
+        "unitName": "Cape Krusenstern",
+        "unitCode": "cakr",
+        "unitDesignation": "NM",
+        "state": [
+            "AK"
+        ],
+        "estDate": ""
+    },
+    {
+        "unitName": "Cape Lookout",
+        "unitCode": "calo",
+        "unitDesignation": "NS",
+        "state": [
+            "NC"
+        ],
+        "estDate": ""
+    },
+    {
+        "unitName": "Capitol Reef",
+        "unitCode": "care",
+        "unitDesignation": "NP",
+        "state": [
+            "UT"
+        ],
+        "estDate": "1971-12-18"
+    },
+    {
+        "unitName": "Capulin Volcano",
+        "unitCode": "cavo",
+        "unitDesignation": "NM",
+        "state": [
+            "NM"
+        ],
+        "estDate": ""
+    },
+    {
+        "unitName": "Carl Sandburg Home",
+        "unitCode": "carl",
+        "unitDesignation": "NHS",
+        "state": [
+            "NC"
+        ],
+        "estDate": ""
+    },
+    {
+        "unitName": "Carlsbad Caverns",
+        "unitCode": "CAVE",
+        "unitDesignation": "NP",
+        "state": [
+            "NM"
+        ],
+        "estDate": "1930-05-14"
+    },
+    {
+        "unitName": "Carter G. Woodson Home",
+        "unitCode": "cawo",
+        "unitDesignation": "NHS",
+        "state": [
+            "DC"
+        ],
+        "estDate": ""
+    },
+    {
+        "unitName": "Casa Grande Ruins",
+        "unitCode": "cagr",
+        "unitDesignation": "NM",
+        "state": [
+            "AZ"
+        ],
+        "estDate": ""
+    },
+    {
+        "unitName": "Castillo de San Marcos",
+        "unitCode": "casa",
+        "unitDesignation": "NM",
+        "state": [
+            "FL"
+        ],
+        "estDate": ""
+    },
+    {
+        "unitName": "Castle Clinton",
+        "unitCode": "cacl",
+        "unitDesignation": "NM",
+        "state": [
+            "NY"
+        ],
+        "estDate": ""
+    },
+    {
+        "unitName": "Castle Mountains National Monument",
+        "unitCode": "camo",
+        "unitDesignation": "NM",
+        "state": [
+            "CA"
+        ],
+        "estDate": ""
+    },
+    {
+        "unitName": "Catoctin Mountain Park",
+        "unitCode": "cato",
+        "unitDesignation": "Other",
+        "state": [
+            "MD"
+        ],
+        "estDate": ""
+    },
+    {
+        "unitName": "Cedar Breaks",
+        "unitCode": "cebr",
+        "unitDesignation": "NM",
+        "state": [
+            "UT"
+        ],
+        "estDate": ""
+    },
+    {
+        "unitName": "Cedar Creek and Belle Grove",
+        "unitCode": "cebe",
+        "unitDesignation": "NHP",
+        "state": [
+            "VA"
+        ],
+        "estDate": ""
+    },
+    {
+        "unitName": "Cesar E. Chavez",
+        "unitCode": "cech",
+        "unitDesignation": "NM",
+        "state": [
+            "CA"
+        ],
+        "estDate": ""
+    },
+    {
+        "unitName": "Chaco Culture",
+        "unitCode": "chcu",
+        "unitDesignation": "NHP",
+        "state": [
+            "NM"
+        ],
+        "estDate": ""
+    },
+    {
+        "unitName": "Chamizal",
+        "unitCode": "cham",
+        "unitDesignation": "NMEM",
+        "state": [
+            "TX"
+        ],
+        "estDate": ""
+    },
+    {
+        "unitName": "Channel Islands",
+        "unitCode": "chis",
+        "unitDesignation": "NP",
+        "state": [
+            "CA"
+        ],
+        "estDate": "1980-03-05"
+    },
+    {
+        "unitName": "Charles Pinckney",
+        "unitCode": "chpi",
+        "unitDesignation": "NHS",
+        "state": [
+            "SC"
+        ],
+        "estDate": ""
+    },
+    {
+        "unitName": "Charles Young Buffalo Soldiers",
+        "unitCode": "chyo",
+        "unitDesignation": "NM",
+        "state": [
+            "OH"
+        ],
+        "estDate": ""
+    },
+    {
+        "unitName": "Chattahoochee River",
+        "unitCode": "chat",
+        "unitDesignation": "NRA",
+        "state": [
+            "GA"
+        ],
+        "estDate": ""
+    },
+    {
+        "unitName": "Chesapeake and Ohio Canal",
+        "unitCode": "choh",
+        "unitDesignation": "NHP",
+        "state": [
+            "DC",
+            "MD",
+            "WV"
+        ],
+        "estDate": ""
+    },
+    {
+        "unitName": "Chickamauga and Chattanooga",
+        "unitCode": "chch",
+        "unitDesignation": "National Military Park",
+        "state": [
+            "GA",
+            "TN"
+        ],
+        "estDate": ""
+    },
+    {
+        "unitName": "Chickasaw",
+        "unitCode": "chic",
+        "unitDesignation": "NRA",
+        "state": [
+            "OK"
+        ],
+        "estDate": ""
+    },
+    {
+        "unitName": "Chiricahua",
+        "unitCode": "chir",
+        "unitDesignation": "NM",
+        "state": [
+            "AZ"
+        ],
+        "estDate": ""
+    },
+    {
+        "unitName": "Christiansted",
+        "unitCode": "chri",
+        "unitDesignation": "NHS",
+        "state": [
+            "VI"
+        ],
+        "estDate": ""
+    },
+    {
+        "unitName": "City of Rocks",
+        "unitCode": "ciro",
+        "unitDesignation": "National Reserve",
+        "state": [
+            "ID"
+        ],
+        "estDate": ""
+    },
+    {
+        "unitName": "Clara Barton",
+        "unitCode": "clba",
+        "unitDesignation": "NHS",
+        "state": [
+            "MD"
+        ],
+        "estDate": ""
+    },
+    {
+        "unitName": "Colonial",
+        "unitCode": "colo",
+        "unitDesignation": "NHP",
+        "state": [
+            "VA"
+        ],
+        "estDate": ""
+    },
+    {
+        "unitName": "Colorado",
+        "unitCode": "colm",
+        "unitDesignation": "NM",
+        "state": [
+            "CO"
+        ],
+        "estDate": ""
+    },
+    {
+        "unitName": "Congaree",
+        "unitCode": "cong",
+        "unitDesignation": "NP",
+        "state": [
+            "SC"
+        ],
+        "estDate": "2003-11-10"
+    },
+    {
+        "unitName": "Constitution Gardens",
+        "unitCode": "coga",
+        "unitDesignation": "Other",
+        "state": [
+            "DC"
+        ],
+        "estDate": ""
+    },
+    {
+        "unitName": "Coronado",
+        "unitCode": "coro",
+        "unitDesignation": "NMEM",
+        "state": [
+            "AZ"
+        ],
+        "estDate": ""
+    },
+    {
+        "unitName": "Cowpens",
+        "unitCode": "cowp",
+        "unitDesignation": "NB",
+        "state": [
+            "SC"
+        ],
+        "estDate": ""
+    },
+    {
+        "unitName": "Crater Lake",
+        "unitCode": "crla",
+        "unitDesignation": "NP",
+        "state": [
+            "OR"
+        ],
+        "estDate": "1902-05-22"
+    },
+    {
+        "unitName": "Craters Of The Moon National Monument",
+        "unitCode": "crmo",
+        "unitDesignation": "NM",
+        "state": [
+            "ID"
+        ],
+        "estDate": ""
+    },
+    {
+        "unitName": "Craters Of The Moon National Preserve",
+        "unitCode": "crmo",
+        "unitDesignation": "NPRES",
+        "state": [
+            "ID"
+        ],
+        "estDate": ""
+    },
+    {
+        "unitName": "Cumberland Gap",
+        "unitCode": "cuga",
+        "unitDesignation": "NHP",
+        "state": [
+            "KY",
+            "TN",
+            "VA"
+        ],
+        "estDate": ""
+    },
+    {
+        "unitName": "Cumberland Island",
+        "unitCode": "cuis",
+        "unitDesignation": "NS",
+        "state": [
+            "GA"
+        ],
+        "estDate": ""
+    },
+    {
+        "unitName": "Curecanti",
+        "unitCode": "cure",
+        "unitDesignation": "NRA",
+        "state": [
+            "CO"
+        ],
+        "estDate": ""
+    },
+    {
+        "unitName": "Cuyahoga Valley",
+        "unitCode": "cuva",
+        "unitDesignation": "NP",
+        "state": [
+            "OH"
+        ],
+        "estDate": "2000-10-11"
+    },
+    {
+        "unitName": "Dayton Aviation Heritage",
+        "unitCode": "daav",
+        "unitDesignation": "NHP",
+        "state": [
+            "OH"
+        ],
+        "estDate": ""
+    },
+    {
+        "unitName": "De Soto",
+        "unitCode": "deso",
+        "unitDesignation": "NMEM",
+        "state": [
+            "FL"
+        ],
+        "estDate": ""
+    },
+    {
+        "unitName": "Death Valley",
+        "unitCode": "deva",
+        "unitDesignation": "NP",
+        "state": [
+            "CA",
+            "NV"
+        ],
+        "estDate": "1994-10-31"
+    },
+    {
+        "unitName": "Delaware Water Gap",
+        "unitCode": "dewa",
+        "unitDesignation": "NRA",
+        "state": [
+            "PA",
+            "NJ"
+        ],
+        "estDate": ""
+    },
+    {
+        "unitName": "Denali",
+        "unitCode": "dena",
+        "unitDesignation": "NP",
+        "state": [
+            "AK"
+        ],
+        "estDate": "1917-02-26"
+    },
+    {
+        "unitName": "Denali Preserve",
+        "unitCode": "dena",
+        "unitDesignation": "NPRES",
+        "state": [
+            "AK"
+        ],
+        "estDate": ""
+    },
+    {
+        "unitName": "Devils Postpile",
+        "unitCode": "depo",
+        "unitDesignation": "NM",
+        "state": [
+            "CA"
+        ],
+        "estDate": ""
+    },
+    {
+        "unitName": "Devils Tower",
+        "unitCode": "deto",
+        "unitDesignation": "NM",
+        "state": [
+            "WY"
+        ],
+        "estDate": ""
+    },
+    {
+        "unitName": "Dinosaur",
+        "unitCode": "dino",
+        "unitDesignation": "NM",
+        "state": [
+            "UT",
+            "CO"
+        ],
+        "estDate": ""
+    },
+    {
+        "unitName": "Dry Tortugas",
+        "unitCode": "drto",
+        "unitDesignation": "NP",
+        "state": [
+            "FL"
+        ],
+        "estDate": "1992-10-26"
+    },
+    {
+        "unitName": "Ebey's Landing",
+        "unitCode": "ebla",
+        "unitDesignation": "National Historical Reserve",
+        "state": [
+            "WA"
+        ],
+        "estDate": ""
+    },
+    {
+        "unitName": "Edgar Allan Poe",
+        "unitCode": "edal",
+        "unitDesignation": "NHS",
+        "state": [
+            "PA"
+        ],
+        "estDate": ""
+    },
+    {
+        "unitName": "Effigy Mounds",
+        "unitCode": "efmo",
+        "unitDesignation": "NM",
+        "state": [
+            "IA"
+        ],
+        "estDate": ""
+    },
+    {
+        "unitName": "Eisenhower",
+        "unitCode": "eise",
+        "unitDesignation": "NHS",
+        "state": [
+            "PA"
+        ],
+        "estDate": ""
+    },
+    {
+        "unitName": "El Malpais",
+        "unitCode": "elma",
+        "unitDesignation": "NM",
+        "state": [
+            "NM"
+        ],
+        "estDate": ""
+    },
+    {
+        "unitName": "El Morro",
+        "unitCode": "elmo",
+        "unitDesignation": "NM",
+        "state": [
+            "NM"
+        ],
+        "estDate": ""
+    },
+    {
+        "unitName": "Eleanor Roosevelt",
+        "unitCode": "elro",
+        "unitDesignation": "NHS",
+        "state": [
+            "NY"
+        ],
+        "estDate": ""
+    },
+    {
+        "unitName": "Eugene O'Neill",
+        "unitCode": "euon",
+        "unitDesignation": "NHS",
+        "state": [
+            "CA"
+        ],
+        "estDate": ""
+    },
+    {
+        "unitName": "Everglades",
+        "unitCode": "ever",
+        "unitDesignation": "NP",
+        "state": [
+            "FL"
+        ],
+        "estDate": "1934-05-30"
+    },
+    {
+        "unitName": "Federal Hall",
+        "unitCode": "feha",
+        "unitDesignation": "NMEM",
+        "state": [
+            "NY"
+        ],
+        "estDate": ""
+    },
+    {
+        "unitName": "Fire Island",
+        "unitCode": "fiis",
+        "unitDesignation": "NS",
+        "state": [
+            "NY"
+        ],
+        "estDate": ""
+    },
+    {
+        "unitName": "First Ladies",
+        "unitCode": "fila",
+        "unitDesignation": "NHS",
+        "state": [
+            "OH"
+        ],
+        "estDate": ""
+    },
+    {
+        "unitName": "First State",
+        "unitCode": "frst",
+        "unitDesignation": "NHP",
+        "state": [
+            "DE",
+            "PA"
+        ],
+        "estDate": ""
+    },
+    {
+        "unitName": "Flight 93",
+        "unitCode": "flni",
+        "unitDesignation": "NMEM",
+        "state": [
+            "PA"
+        ],
+        "estDate": ""
+    },
+    {
+        "unitName": "Florissant Fossil Beds",
+        "unitCode": "flfo",
+        "unitDesignation": "NM",
+        "state": [
+            "CO"
+        ],
+        "estDate": ""
+    },
+    {
+        "unitName": "Ford's Theatre",
+        "unitCode": "foth",
+        "unitDesignation": "NHS",
+        "state": [
+            "DC"
+        ],
+        "estDate": ""
+    },
+    {
+        "unitName": "Fort Bowie",
+        "unitCode": "fobo",
+        "unitDesignation": "NHS",
+        "state": [
+            "AZ"
+        ],
+        "estDate": ""
+    },
+    {
+        "unitName": "Fort Caroline National Memorial",
+        "unitCode": "foca",
+        "unitDesignation": "NMEM",
+        "state": [
+            "FL"
+        ],
+        "estDate": ""
+    },
+    {
+        "unitName": "Fort Davis",
+        "unitCode": "foda",
+        "unitDesignation": "NHS",
+        "state": [
+            "TX"
+        ],
+        "estDate": ""
+    },
+    {
+        "unitName": "Fort Donelson",
+        "unitCode": "fodo",
+        "unitDesignation": "NB",
+        "state": [
+            "TN"
+        ],
+        "estDate": ""
+    },
+    {
+        "unitName": "Fort Frederica",
+        "unitCode": "fofr",
+        "unitDesignation": "NM",
+        "state": [
+            "GA"
+        ],
+        "estDate": ""
+    },
+    {
+        "unitName": "Fort Laramie",
+        "unitCode": "fola",
+        "unitDesignation": "NHS",
+        "state": [
+            "WY"
+        ],
+        "estDate": ""
+    },
+    {
+        "unitName": "Fort Larned",
+        "unitCode": "fols",
+        "unitDesignation": "NHS",
+        "state": [
+            "KS"
+        ],
+        "estDate": ""
+    },
+    {
+        "unitName": "Fort Matanzas",
+        "unitCode": "foma",
+        "unitDesignation": "NM",
+        "state": [
+            "FL"
+        ],
+        "estDate": ""
+    },
+    {
+        "unitName": "Fort McHenry National Monument and Historic Shrine",
+        "unitCode": "fomc",
+        "unitDesignation": "NM",
+        "state": [
+            "MD"
+        ],
+        "estDate": ""
+    },
+    {
+        "unitName": "Fort Monroe",
+        "unitCode": "fomr",
+        "unitDesignation": "NM",
+        "state": [
+            "VA"
+        ],
+        "estDate": ""
+    },
+    {
+        "unitName": "Fort Necessity",
+        "unitCode": "fone",
+        "unitDesignation": "NB",
+        "state": [
+            "PA"
+        ],
+        "estDate": ""
+    },
+    {
+        "unitName": "Fort Point",
+        "unitCode": "fopo",
+        "unitDesignation": "NHS",
+        "state": [
+            "CA"
+        ],
+        "estDate": ""
+    },
+    {
+        "unitName": "Fort Pulaski",
+        "unitCode": "fopu",
+        "unitDesignation": "NM",
+        "state": [
+            "GA"
+        ],
+        "estDate": ""
+    },
+    {
+        "unitName": "Fort Raleigh",
+        "unitCode": "fora",
+        "unitDesignation": "NHS",
+        "state": [
+            "NC"
+        ],
+        "estDate": ""
+    },
+    {
+        "unitName": "Fort Scott",
+        "unitCode": "fosc",
+        "unitDesignation": "NHS",
+        "state": [
+            "KS"
+        ],
+        "estDate": ""
+    },
+    {
+        "unitName": "Fort Smith",
+        "unitCode": "fosm",
+        "unitDesignation": "NHS",
+        "state": [
+            "AR"
+        ],
+        "estDate": ""
+    },
+    {
+        "unitName": "Fort Stanwix",
+        "unitCode": "fost",
+        "unitDesignation": "NM",
+        "state": [
+            "NY"
+        ],
+        "estDate": ""
+    },
+    {
+        "unitName": "Fort Sumter",
+        "unitCode": "fosu",
+        "unitDesignation": "NM",
+        "state": [
+            "SC"
+        ],
+        "estDate": ""
+    },
+    {
+        "unitName": "Fort Union",
+        "unitCode": "foun",
+        "unitDesignation": "NM",
+        "state": [
+            "NM"
+        ],
+        "estDate": ""
+    },
+    {
+        "unitName": "Fort Union Trading Post",
+        "unitCode": "fous",
+        "unitDesignation": "National Historic Site",
+        "state": [
+            "ND",
+            "MT"
+        ],
+        "estDate": ""
+    },
+    {
+        "unitName": "Fort Vancouver",
+        "unitCode": "fova",
+        "unitDesignation": "National Historic Site",
+        "state": [
+            "OR",
+            "WA"
+        ],
+        "estDate": ""
+    },
+    {
+        "unitName": "Fort Washington Park",
+        "unitCode": "fowa",
+        "unitDesignation": "Other",
+        "state": [
+            "MD"
+        ],
+        "estDate": ""
+    },
+    {
+        "unitName": "Fossil Butte",
+        "unitCode": "fobu",
+        "unitDesignation": "NM",
+        "state": [
+            "WY"
+        ],
+        "estDate": ""
+    },
+    {
+        "unitName": "Franklin Delano Roosevelt Memorial",
+        "unitCode": "frde",
+        "unitDesignation": "NMEM",
+        "state": [
+            "DC"
+        ],
+        "estDate": ""
+    },
+    {
+        "unitName": "Frederick Douglass",
+        "unitCode": "frdo",
+        "unitDesignation": "NHS",
+        "state": [
+            "DC"
+        ],
+        "estDate": ""
+    },
+    {
+        "unitName": "Frederick Law Olmsted",
+        "unitCode": "frla",
+        "unitDesignation": "NHS",
+        "state": [
+            "MA"
+        ],
+        "estDate": ""
+    },
+    {
+        "unitName": "Fredericksburg and Spotsylvania County Battlefields Memorial",
+        "unitCode": "frsp",
+        "unitDesignation": "NMP",
+        "state": [
+            "VA"
+        ],
+        "estDate": ""
+    },
+    {
+        "unitName": "Friendship Hill",
+        "unitCode": "frhi",
+        "unitDesignation": "NHS",
+        "state": [
+            "PA"
+        ],
+        "estDate": ""
+    },
+    {
+        "unitName": "Gates of the Arctic National Park",
+        "unitCode": "gaar",
+        "unitDesignation": "NP",
+        "state": [
+            "AK"
+        ],
+        "estDate": "1980-12-02"
+    },
+    {
+        "unitName": "Gates of the Arctic National Preserve",
+        "unitCode": "gaar",
+        "unitDesignation": "NPRES",
+        "state": [
+            "AK"
+        ],
+        "estDate": ""
+    },
+    {
+        "unitName": "Gateway",
+        "unitCode": "gate",
+        "unitDesignation": "NRA",
+        "state": [
+            "NY",
+            "NJ"
+        ],
+        "estDate": ""
+    },
+    {
+        "unitName": "Gauley River",
+        "unitCode": "gari",
+        "unitDesignation": "NRA",
+        "state": [
+            "WV"
+        ],
+        "estDate": ""
+    },
+    {
+        "unitName": "General Grant",
+        "unitCode": "gegr",
+        "unitDesignation": "NMEM",
+        "state": [
+            "NY"
+        ],
+        "estDate": ""
+    },
+    {
+        "unitName": "George Rogers Clark",
+        "unitCode": "gero",
+        "unitDesignation": "NHP",
+        "state": [
+            "IN"
+        ],
+        "estDate": ""
+    },
+    {
+        "unitName": "George Washington Birthplace",
+        "unitCode": "gewa",
+        "unitDesignation": "NM",
+        "state": [
+            "VA"
+        ],
+        "estDate": ""
+    },
+    {
+        "unitName": "George Washington Carver",
+        "unitCode": "gwca",
+        "unitDesignation": "NM",
+        "state": [
+            "MO"
+        ],
+        "estDate": ""
+    },
+    {
+        "unitName": "George Washington Memorial Parkway",
+        "unitCode": "gwmp",
+        "unitDesignation": "PKWY",
+        "state": [
+            "VA",
+            "MD",
+            "DC"
+        ],
+        "estDate": ""
+    },
+    {
+        "unitName": "Gettysburg",
+        "unitCode": "gett",
+        "unitDesignation": "NMP",
+        "state": [
+            "PA"
+        ],
+        "estDate": ""
+    },
+    {
+        "unitName": "Gila Cliff Dwellings",
+        "unitCode": "gicl",
+        "unitDesignation": "NM",
+        "state": [
+            "NM"
+        ],
+        "estDate": ""
+    },
+    {
+        "unitName": "Glacier Bay National Park",
+        "unitCode": "glba",
+        "unitDesignation": "NP",
+        "state": [
+            "AK"
+        ],
+        "estDate": "1980-12-02"
+    },
+    {
+        "unitName": "Glacier Bay National Preserve",
+        "unitCode": "glba",
+        "unitDesignation": "NPRES",
+        "state": [
+            "AK"
+        ],
+        "estDate": ""
+    },
+    {
+        "unitName": "Glacier",
+        "unitCode": "glac",
+        "unitDesignation": "NP",
+        "state": [
+            "MT"
+        ],
+        "estDate": "1910-05-11"
+    },
+    {
+        "unitName": "Glen Canyon",
+        "unitCode": "glca",
+        "unitDesignation": "NRA",
+        "state": [
+            "AZ",
+            "UT"
+        ],
+        "estDate": ""
+    },
+    {
+        "unitName": "Golden Gate",
+        "unitCode": "goga",
+        "unitDesignation": "NRA",
+        "state": [
+            "CA"
+        ],
+        "estDate": ""
+    },
+    {
+        "unitName": "Golden Spike",
+        "unitCode": "gosp",
+        "unitDesignation": "NHS",
+        "state": [
+            "UT"
+        ],
+        "estDate": ""
+    },
+    {
+        "unitName": "Governors Island",
+        "unitCode": "gois",
+        "unitDesignation": "NM",
+        "state": [
+            "NY"
+        ],
+        "estDate": ""
+    },
+    {
+        "unitName": "Grand Canyon",
+        "unitCode": "grca",
+        "unitDesignation": "NP",
+        "state": [
+            "AZ"
+        ],
+        "estDate": "1919-02-26"
+    },
+    {
+        "unitName": "Grand Portage",
+        "unitCode": "grpo",
+        "unitDesignation": "NM",
+        "state": [
+            "MN"
+        ],
+        "estDate": ""
+    },
+    {
+        "unitName": "Grand Teton",
+        "unitCode": "grte",
+        "unitDesignation": "NP",
+        "state": [
+            "WY"
+        ],
+        "estDate": "1929-02-26"
+    },
+    {
+        "unitName": "Grant-Kohrs Ranch",
+        "unitCode": "grko",
+        "unitDesignation": "NHS",
+        "state": [
+            "MT"
+        ],
+        "estDate": ""
+    },
+    {
+        "unitName": "Great Basin",
+        "unitCode": "grba",
+        "unitDesignation": "NP",
+        "state": [
+            "NV"
+        ],
+        "estDate": "1986-10-27"
+    },
+    {
+        "unitName": "Great Egg Harbor National Scenic and Recreational River",
+        "unitCode": "greg",
+        "unitDesignation": "National Wild and Scenic River",
+        "state": [
+            "NJ"
+        ],
+        "estDate": ""
+    },
+    {
+        "unitName": "Great Sand Dunes National Park",
+        "unitCode": "grsa",
+        "unitDesignation": "NP",
+        "state": [
+            "CO"
+        ],
+        "estDate": "2004-09-13"
+    },
+    {
+        "unitName": "Great Sand Dunes National Preserve",
+        "unitCode": "grsa",
+        "unitDesignation": "NPRES",
+        "state": [
+            "CO"
+        ],
+        "estDate": ""
+    },
+    {
+        "unitName": "Great Smoky Mountains",
+        "unitCode": "grsm",
+        "unitDesignation": "NP",
+        "state": [
+            "TN",
+            "NC"
+        ],
+        "estDate": "1934-06-15"
+    },
+    {
+        "unitName": "Greenbelt Park",
+        "unitCode": "gree",
+        "unitDesignation": "Other",
+        "state": [
+            "MD"
+        ],
+        "estDate": ""
+    },
+    {
+        "unitName": "Guadalupe Mountains",
+        "unitCode": "gumo",
+        "unitDesignation": "NP",
+        "state": [
+            "TX"
+        ],
+        "estDate": "1966-10-15"
+    },
+    {
+        "unitName": "Guilford Courthouse",
+        "unitCode": "guco",
+        "unitDesignation": "NMP",
+        "state": [
+            "NC"
+        ],
+        "estDate": ""
+    },
+    {
+        "unitName": "Gulf Islands",
+        "unitCode": "guis",
+        "unitDesignation": "NS",
+        "state": [
+            "FL",
+            "MS"
+        ],
+        "estDate": ""
+    },
+    {
+        "unitName": "Hagerman Fossil Beds",
+        "unitCode": "hafo",
+        "unitDesignation": "NM",
+        "state": [
+            "ID"
+        ],
+        "estDate": ""
+    },
+    {
+        "unitName": "Haleakalā",
+        "unitCode": "hale",
+        "unitDesignation": "NP",
+        "state": [
+            "HI"
+        ],
+        "estDate": "1916-08-01"
+    },
+    {
+        "unitName": "Hamilton Grange",
+        "unitCode": "hagr",
+        "unitDesignation": "NMEM",
+        "state": [
+            "NY"
+        ],
+        "estDate": ""
+    },
+    {
+        "unitName": "Hampton",
+        "unitCode": "hamp",
+        "unitDesignation": "NHS",
+        "state": [
+            "MD"
+        ],
+        "estDate": ""
+    },
+    {
+        "unitName": "Harpers Ferry",
+        "unitCode": "hafe",
+        "unitDesignation": "NHP",
+        "state": [
+            "WV",
+            "VA",
+            "MD"
+        ],
+        "estDate": ""
+    },
+    {
+        "unitName": "Harriet Tubman Underground Railroad",
+        "unitCode": "hatu",
+        "unitDesignation": "NM",
+        "state": [
+            "MD"
+        ],
+        "estDate": ""
+    },
+    {
+        "unitName": "Harry S Truman",
+        "unitCode": "hstr",
+        "unitDesignation": "NHS",
+        "state": [
+            "MO"
+        ],
+        "estDate": ""
+    },
+    {
+        "unitName": "Hawaii Volcanoes",
+        "unitCode": "havo",
+        "unitDesignation": "NP",
+        "state": [
+            "HI"
+        ],
+        "estDate": "1916-08-01"
+    },
+    {
+        "unitName": "Herbert Hoover",
+        "unitCode": "heho",
+        "unitDesignation": "NHS",
+        "state": [
+            "IA"
+        ],
+        "estDate": ""
+    },
+    {
+        "unitName": "Hohokam Pima",
+        "unitCode": "",
+        "unitDesignation": "NMEM",
+        "state": [
+            "AZ"
+        ],
+        "estDate": ""
+    },
+    {
+        "unitName": "Homestead NM of America",
+        "unitCode": "home",
+        "unitDesignation": "NM",
+        "state": [
+            "NE"
+        ],
+        "estDate": ""
+    },
+    {
+        "unitName": "Honouliuli National Monument",
+        "unitCode": "hono",
+        "unitDesignation": "NM",
+        "state": [
+            "HI"
+        ],
+        "estDate": ""
+    },
+    {
+        "unitName": "Hopewell Culture",
+        "unitCode": "hocu",
+        "unitDesignation": "NHP",
+        "state": [
+            "OH"
+        ],
+        "estDate": ""
+    },
+    {
+        "unitName": "Hopewell Furnace",
+        "unitCode": "hofu",
+        "unitDesignation": "NHS",
+        "state": [
+            "PA"
+        ],
+        "estDate": ""
+    },
+    {
+        "unitName": "Horseshoe Bend",
+        "unitCode": "hobe",
+        "unitDesignation": "NMP",
+        "state": [
+            "AL"
+        ],
+        "estDate": ""
+    },
+    {
+        "unitName": "Hot Springs",
+        "unitCode": "hosp",
+        "unitDesignation": "NP",
+        "state": [
+            "AR"
+        ],
+        "estDate": "1921-03-04"
+    },
+    {
+        "unitName": "Hovenweep",
+        "unitCode": "hove",
+        "unitDesignation": "NM",
+        "state": [
+            "CO",
+            "UT"
+        ],
+        "estDate": ""
+    },
+    {
+        "unitName": "Hubbell Trading Post",
+        "unitCode": "hutr",
+        "unitDesignation": "NHS",
+        "state": [
+            "AZ"
+        ],
+        "estDate": ""
+    },
+    {
+        "unitName": "Independence",
+        "unitCode": "inde",
+        "unitDesignation": "NHP",
+        "state": [
+            "PA"
+        ],
+        "estDate": ""
+    },
+    {
+        "unitName": "Indiana Dunes",
+        "unitCode": "indu",
+        "unitDesignation": "NL",
+        "state": [
+            "IN"
+        ],
+        "estDate": ""
+    },
+    {
+        "unitName": "Isle Royale",
+        "unitCode": "isro",
+        "unitDesignation": "NP",
+        "state": [
+            "MI"
+        ],
+        "estDate": "1940-04-03"
+    },
+    {
+        "unitName": "James A. Garfield",
+        "unitCode": "jaga",
+        "unitDesignation": "NHS",
+        "state": [
+            "OH"
+        ],
+        "estDate": ""
+    },
+    {
+        "unitName": "Jean Lafitte NHP and Preserve",
+        "unitCode": "jela",
+        "unitDesignation": "NHP",
+        "state": [
+            "LA"
+        ],
+        "estDate": ""
+    },
+    {
+        "unitName": "Jefferson National Expansion Memorial",
+        "unitCode": "jeff",
+        "unitDesignation": "NMEM",
+        "state": [
+            "MO"
+        ],
+        "estDate": ""
+    },
+    {
+        "unitName": "Jewel Cave",
+        "unitCode": "jeca",
+        "unitDesignation": "NM",
+        "state": [
+            "SD"
+        ],
+        "estDate": ""
+    },
+    {
+        "unitName": "Jimmy Carter",
+        "unitCode": "jica",
+        "unitDesignation": "NHS",
+        "state": [
+            "GA"
+        ],
+        "estDate": ""
+    },
+    {
+        "unitName": "John D. Rockefeller, Jr. Memorial Parkway",
+        "unitCode": "jodr",
+        "unitDesignation": "PKWY",
+        "state": [
+            "WY"
+        ],
+        "estDate": ""
+    },
+    {
+        "unitName": "John Day Fossil Beds",
+        "unitCode": "joda",
+        "unitDesignation": "NM",
+        "state": [
+            "OR"
+        ],
+        "estDate": ""
+    },
+    {
+        "unitName": "John Fitzgerald Kennedy",
+        "unitCode": "jofi",
+        "unitDesignation": "NHS",
+        "state": [
+            "MA"
+        ],
+        "estDate": ""
+    },
+    {
+        "unitName": "John Muir",
+        "unitCode": "jomu",
+        "unitDesignation": "NHS",
+        "state": [
+            "AK"
+        ],
+        "estDate": ""
+    },
+    {
+        "unitName": "Johnstown Flood",
+        "unitCode": "jofl",
+        "unitDesignation": "NMEM",
+        "state": [
+            "PA"
+        ],
+        "estDate": ""
+    },
+    {
+        "unitName": "Joshua Tree",
+        "unitCode": "jotr",
+        "unitDesignation": "NP",
+        "state": [
+            "CA"
+        ],
+        "estDate": "1994-10-31"
+    },
+    {
+        "unitName": "Kalaupapa",
+        "unitCode": "kala",
+        "unitDesignation": "NHP",
+        "state": [
+            "HI"
+        ],
+        "estDate": ""
+    },
+    {
+        "unitName": "Kaloko-Honokohau",
+        "unitCode": "kaho",
+        "unitDesignation": "NHP",
+        "state": [
+            "HI"
+        ],
+        "estDate": ""
+    },
+    {
+        "unitName": "Katmai National Park",
+        "unitCode": "katm",
+        "unitDesignation": "NP",
+        "state": [
+            "AK"
+        ],
+        "estDate": "1980-12-02"
+    },
+    {
+        "unitName": "Katmai National Preserve",
+        "unitCode": "katm",
+        "unitDesignation": "NPRES",
+        "state": [
+            "AK"
+        ],
+        "estDate": ""
+    },
+    {
+        "unitName": "Kenai Fjords",
+        "unitCode": "kefj",
+        "unitDesignation": "NP",
+        "state": [
+            "AK"
+        ],
+        "estDate": "1980-12-02"
+    },
+    {
+        "unitName": "Kennesaw Mountain",
+        "unitCode": "kemo",
+        "unitDesignation": "NBP",
+        "state": [
+            "GA"
+        ],
+        "estDate": ""
+    },
+    {
+        "unitName": "Keweenaw",
+        "unitCode": "kewe",
+        "unitDesignation": "NHP",
+        "state": [
+            "MI"
+        ],
+        "estDate": ""
+    },
+    {
+        "unitName": "Kings Canyon",
+        "unitCode": "seki",
+        "unitDesignation": "NP",
+        "state": [
+            "CA"
+        ],
+        "estDate": "1940-03-04"
+    },
+    {
+        "unitName": "Kings Mountain",
+        "unitCode": "kimo",
+        "unitDesignation": "NMP",
+        "state": [
+            "SC"
+        ],
+        "estDate": ""
+    },
+    {
+        "unitName": "Klondike Gold Rush",
+        "unitCode": "klgo",
+        "unitDesignation": "NHP",
+        "state": [
+            "AK"
+        ],
+        "estDate": ""
+    },
+    {
+        "unitName": "Klondike Gold Rush - Seattle Unit",
+        "unitCode": "klse",
+        "unitDesignation": "NHP",
+        "state": [
+            "WA"
+        ],
+        "estDate": ""
+    },
+    {
+        "unitName": "Knife River Indian Villages",
+        "unitCode": "knri",
+        "unitDesignation": "NHS",
+        "state": [
+            "ND"
+        ],
+        "estDate": ""
+    },
+    {
+        "unitName": "Kobuk Valley",
+        "unitCode": "kova",
+        "unitDesignation": "NP",
+        "state": [
+            "AK"
+        ],
+        "estDate": "1980-12-02"
+    },
+    {
+        "unitName": "Korean War Veterans",
+        "unitCode": "kowa",
+        "unitDesignation": "NMEM",
+        "state": [
+            "DC"
+        ],
+        "estDate": ""
+    },
+    {
+        "unitName": "Lake Chelan",
+        "unitCode": "noca",
+        "unitDesignation": "NRA",
+        "state": [
+            "WA"
+        ],
+        "estDate": ""
+    },
+    {
+        "unitName": "Lake Clark National Park",
+        "unitCode": "lacl",
+        "unitDesignation": "NP",
+        "state": [
+            "AK"
+        ],
+        "estDate": "1980-12-02"
+    },
+    {
+        "unitName": "Lake Clark National Preserve",
+        "unitCode": "lacl",
+        "unitDesignation": "NPRES",
+        "state": [
+            "AK"
+        ],
+        "estDate": ""
+    },
+    {
+        "unitName": "Lake Mead",
+        "unitCode": "lake",
+        "unitDesignation": "NRA",
+        "state": [
+            "NV",
+            "AZ"
+        ],
+        "estDate": ""
+    },
+    {
+        "unitName": "Lake Meredith",
+        "unitCode": "lamr",
+        "unitDesignation": "NRA",
+        "state": [
+            "TX"
+        ],
+        "estDate": ""
+    },
+    {
+        "unitName": "Lake Roosevelt",
+        "unitCode": "laro",
+        "unitDesignation": "NRA",
+        "state": [
+            "WA"
+        ],
+        "estDate": ""
+    },
+    {
+        "unitName": "Lassen Volcanic",
+        "unitCode": "lavo",
+        "unitDesignation": "NP",
+        "state": [
+            "CA"
+        ],
+        "estDate": "1916-08-09"
+    },
+    {
+        "unitName": "Lava Beds",
+        "unitCode": "labe",
+        "unitDesignation": "NM",
+        "state": [
+            "CA"
+        ],
+        "estDate": ""
+    },
+    {
+        "unitName": "Lewis and Clark",
+        "unitCode": "lewi",
+        "unitDesignation": "NHP",
+        "state": [
+            "OR",
+            "WA"
+        ],
+        "estDate": ""
+    },
+    {
+        "unitName": "Lincoln Boyhood",
+        "unitCode": "libo",
+        "unitDesignation": "NMEM",
+        "state": [
+            "IN"
+        ],
+        "estDate": ""
+    },
+    {
+        "unitName": "Lincoln Home",
+        "unitCode": "liho",
+        "unitDesignation": "NHS",
+        "state": [
+            "IL"
+        ],
+        "estDate": ""
+    },
+    {
+        "unitName": "Lincoln Memorial",
+        "unitCode": "linc",
+        "unitDesignation": "NMEM",
+        "state": [
+            "DC"
+        ],
+        "estDate": ""
+    },
+    {
+        "unitName": "Little Bighorn Battlefield",
+        "unitCode": "libi",
+        "unitDesignation": "NM",
+        "state": [
+            "MT"
+        ],
+        "estDate": ""
+    },
+    {
+        "unitName": "Little River Canyon",
+        "unitCode": "liri",
+        "unitDesignation": "NPRES",
+        "state": [
+            "AL"
+        ],
+        "estDate": ""
+    },
+    {
+        "unitName": "Little Rock Central High School",
+        "unitCode": "chsc",
+        "unitDesignation": "NHS",
+        "state": [
+            "AR"
+        ],
+        "estDate": ""
+    },
+    {
+        "unitName": "Longfellow House - Washington's Headquarters",
+        "unitCode": "long",
+        "unitDesignation": "NHS",
+        "state": [
+            "MA"
+        ],
+        "estDate": ""
+    },
+    {
+        "unitName": "Lowell",
+        "unitCode": "lowe",
+        "unitDesignation": "NHP",
+        "state": [
+            "MA"
+        ],
+        "estDate": ""
+    },
+    {
+        "unitName": "Lyndon B. Johnson",
+        "unitCode": "lyjo",
+        "unitDesignation": "NHP",
+        "state": [
+            "TX"
+        ],
+        "estDate": ""
+    },
+    {
+        "unitName": "Lyndon Baines Johnson Memorial Grove on the Potomac",
+        "unitCode": "lyba",
+        "unitDesignation": "NMEM",
+        "state": [
+            "DC"
+        ],
+        "estDate": ""
+    },
+    {
+        "unitName": "Maggie L. Walker",
+        "unitCode": "mawa",
+        "unitDesignation": "NHS",
+        "state": [
+            "VA"
+        ],
+        "estDate": ""
+    },
+    {
+        "unitName": "Mammoth Cave",
+        "unitCode": "maca",
+        "unitDesignation": "NP",
+        "state": [
+            "KY"
+        ],
+        "estDate": "1941-07-01"
+    },
+    {
+        "unitName": "Manassas",
+        "unitCode": "mana",
+        "unitDesignation": "NBP",
+        "state": [
+            "VA"
+        ],
+        "estDate": ""
+    },
+    {
+        "unitName": "Manhattan Project",
+        "unitCode": "mapr",
+        "unitDesignation": "NHP",
+        "state": [
+            "NM",
+            "TN",
+            "WA"
+        ],
+        "estDate": ""
+    },
+    {
+        "unitName": "Manzanar",
+        "unitCode": "manz",
+        "unitDesignation": "NHS",
+        "state": [
+            "CA"
+        ],
+        "estDate": ""
+    },
+    {
+        "unitName": "Marsh-Billings-Rockefeller",
+        "unitCode": "mabi",
+        "unitDesignation": "NHP",
+        "state": [
+            "VT"
+        ],
+        "estDate": ""
+    },
+    {
+        "unitName": "Martin Luther King, Jr.",
+        "unitCode": "malu",
+        "unitDesignation": "NHS",
+        "state": [
+            "GA"
+        ],
+        "estDate": ""
+    },
+    {
+        "unitName": "Martin Luther King, Jr. National Memorial",
+        "unitCode": "mlkm",
+        "unitDesignation": "NMEM",
+        "state": [
+            "DC"
+        ],
+        "estDate": ""
+    },
+    {
+        "unitName": "Martin Van Buren",
+        "unitCode": "mava",
+        "unitDesignation": "NHS",
+        "state": [
+            "NY"
+        ],
+        "estDate": ""
+    },
+    {
+        "unitName": "Mary McLeod Bethune Council House",
+        "unitCode": "mamc",
+        "unitDesignation": "NHS",
+        "state": [
+            "DC"
+        ],
+        "estDate": ""
+    },
+    {
+        "unitName": "Mesa Verde",
+        "unitCode": "meve",
+        "unitDesignation": "NP",
+        "state": [
+            "CO"
+        ],
+        "estDate": "1906-06-29"
+    },
+    {
+        "unitName": "Minidoka",
+        "unitCode": "miin",
+        "unitDesignation": "National Historic Site",
+        "state": [
+            "ID",
+            "WA"
+        ],
+        "estDate": ""
+    },
+    {
+        "unitName": "Minute Man",
+        "unitCode": "mima",
+        "unitDesignation": "NHP",
+        "state": [
+            "MA"
+        ],
+        "estDate": ""
+    },
+    {
+        "unitName": "Minuteman Missile",
+        "unitCode": "mimi",
+        "unitDesignation": "NHS",
+        "state": [
+            "SD"
+        ],
+        "estDate": ""
+    },
+    {
+        "unitName": "Mississippi National River and Recreation Areas",
+        "unitCode": "miss",
+        "unitDesignation": "National River",
+        "state": [
+            "MN"
+        ],
+        "estDate": ""
+    },
+    {
+        "unitName": "Missouri National Recreational River",
+        "unitCode": "mnrr",
+        "unitDesignation": "National Wild and Scenic River",
+        "state": [
+            "SD",
+            "NE"
+        ],
+        "estDate": ""
+    },
+    {
+        "unitName": "Mojave",
+        "unitCode": "moja",
+        "unitDesignation": "NPRES",
+        "state": [
+            "CA"
+        ],
+        "estDate": ""
+    },
+    {
+        "unitName": "Monocacy",
+        "unitCode": "mono",
+        "unitDesignation": "NB",
+        "state": [
+            "MD"
+        ],
+        "estDate": ""
+    },
+    {
+        "unitName": "Montezuma Castle",
+        "unitCode": "moca",
+        "unitDesignation": "NM",
+        "state": [
+            "AZ"
+        ],
+        "estDate": ""
+    },
+    {
+        "unitName": "Moores Creek",
+        "unitCode": "mocr",
+        "unitDesignation": "NB",
+        "state": [
+            "NC"
+        ],
+        "estDate": ""
+    },
+    {
+        "unitName": "Morristown",
+        "unitCode": "morr",
+        "unitDesignation": "NHP",
+        "state": [
+            "NJ"
+        ],
+        "estDate": ""
+    },
+    {
+        "unitName": "Mount Rainier",
+        "unitCode": "mora",
+        "unitDesignation": "NP",
+        "state": [
+            "WA"
+        ],
+        "estDate": "1899-03-02"
+    },
+    {
+        "unitName": "Mount Rushmore",
+        "unitCode": "moru",
+        "unitDesignation": "NMEM",
+        "state": [
+            "SD"
+        ],
+        "estDate": ""
+    },
+    {
+        "unitName": "Muir Woods",
+        "unitCode": "muwo",
+        "unitDesignation": "NM",
+        "state": [
+            "CA"
+        ],
+        "estDate": ""
+    },
+    {
+        "unitName": "Natchez",
+        "unitCode": "natc",
+        "unitDesignation": "NHP",
+        "state": [
+            "MS"
+        ],
+        "estDate": ""
+    },
+    {
+        "unitName": "Natchez Trace Parkway",
+        "unitCode": "natr",
+        "unitDesignation": "PKWY",
+        "state": [
+            "MS",
+            "AL",
+            "TN"
+        ],
+        "estDate": ""
+    },
+    {
+        "unitName": "National Capital Parks",
+        "unitCode": "nace",
+        "unitDesignation": "Other",
+        "state": [
+            "DC"
+        ],
+        "estDate": ""
+    },
+    {
+        "unitName": "National Mall",
+        "unitCode": "nama",
+        "unitDesignation": "Other",
+        "state": [
+            "DC"
+        ],
+        "estDate": ""
+    },
+    {
+        "unitName": "National Park of American Samoa",
+        "unitCode": "npsa",
+        "unitDesignation": "NP",
+        "state": [
+            "AS"
+        ],
+        "estDate": "1988-10-31"
+    },
+    {
+        "unitName": "Natural Bridges",
+        "unitCode": "nabr",
+        "unitDesignation": "NM",
+        "state": [
+            "UT"
+        ],
+        "estDate": ""
+    },
+    {
+        "unitName": "Navajo",
+        "unitCode": "nava",
+        "unitDesignation": "NM",
+        "state": [
+            "AZ"
+        ],
+        "estDate": ""
+    },
+    {
+        "unitName": "New Bedford Whaling",
+        "unitCode": "nebe",
+        "unitDesignation": "NHP",
+        "state": [
+            "MA"
+        ],
+        "estDate": ""
+    },
+    {
+        "unitName": "New Orleans Jazz",
+        "unitCode": "jazz",
+        "unitDesignation": "NHP",
+        "state": [
+            "LA"
+        ],
+        "estDate": ""
+    },
+    {
+        "unitName": "New River Gorge National River",
+        "unitCode": "neri",
+        "unitDesignation": "National River",
+        "state": [
+            "WV"
+        ],
+        "estDate": ""
+    },
+    {
+        "unitName": "Nez Perce",
+        "unitCode": "nepe",
+        "unitDesignation": "NHP",
+        "state": [
+            "ID",
+            "MT",
+            "OR",
+            "WA"
+        ],
+        "estDate": ""
+    },
+    {
+        "unitName": "Nicodemus",
+        "unitCode": "nico",
+        "unitDesignation": "NHS",
+        "state": [
+            "KS"
+        ],
+        "estDate": ""
+    },
+    {
+        "unitName": "Ninety Six",
+        "unitCode": "nisi",
+        "unitDesignation": "NHS",
+        "state": [
+            "SC"
+        ],
+        "estDate": ""
+    },
+    {
+        "unitName": "Niobrara National Wild and Scenic River",
+        "unitCode": "niob",
+        "unitDesignation": "National Wild and Scenic River",
+        "state": [
+            "NE"
+        ],
+        "estDate": ""
+    },
+    {
+        "unitName": "Noatak",
+        "unitCode": "noat",
+        "unitDesignation": "NPRES",
+        "state": [
+            "AK"
+        ],
+        "estDate": ""
+    },
+    {
+        "unitName": "North Cascades",
+        "unitCode": "noca",
+        "unitDesignation": "NP",
+        "state": [
+            "WA"
+        ],
+        "estDate": "1968-10-02"
+    },
+    {
+        "unitName": "Obed National Wild and Scenic River",
+        "unitCode": "obed",
+        "unitDesignation": "National Wild and Scenic River",
+        "state": [
+            "TN"
+        ],
+        "estDate": ""
+    },
+    {
+        "unitName": "Ocmulgee",
+        "unitCode": "ocmu",
+        "unitDesignation": "NM",
+        "state": [
+            "GA"
+        ],
+        "estDate": ""
+    },
+    {
+        "unitName": "Olympic",
+        "unitCode": "olym",
+        "unitDesignation": "NP",
+        "state": [
+            "WA"
+        ],
+        "estDate": "1938-06-29"
+    },
+    {
+        "unitName": "Oregon Caves",
+        "unitCode": "orca",
+        "unitDesignation": "NM",
+        "state": [
+            "OR"
+        ],
+        "estDate": ""
+    },
+    {
+        "unitName": "Organ Pipe Cactus",
+        "unitCode": "orpi",
+        "unitDesignation": "NM",
+        "state": [
+            "AZ"
+        ],
+        "estDate": ""
+    },
+    {
+        "unitName": "Ozark National Scenic Riverways",
+        "unitCode": "ozar",
+        "unitDesignation": "National River",
+        "state": [
+            "MO"
+        ],
+        "estDate": ""
+    },
+    {
+        "unitName": "Padre Island",
+        "unitCode": "pais",
+        "unitDesignation": "NS",
+        "state": [
+            "TX"
+        ],
+        "estDate": ""
+    },
+    {
+        "unitName": "Palo Alto Battlefield",
+        "unitCode": "paal",
+        "unitDesignation": "NHP",
+        "state": [
+            "TX"
+        ],
+        "estDate": ""
+    },
+    {
+        "unitName": "Paterson Great Falls",
+        "unitCode": "pagr",
+        "unitDesignation": "NHP",
+        "state": [
+            "NJ"
+        ],
+        "estDate": ""
+    },
+    {
+        "unitName": "Pea Ridge",
+        "unitCode": "peri",
+        "unitDesignation": "NMP",
+        "state": [
+            "AR"
+        ],
+        "estDate": ""
+    },
+    {
+        "unitName": "Pecos",
+        "unitCode": "peco",
+        "unitDesignation": "NHP",
+        "state": [
+            "NM"
+        ],
+        "estDate": ""
+    },
+    {
+        "unitName": "Pennsylvania Avenue",
+        "unitCode": "paav",
+        "unitDesignation": "NHS",
+        "state": [
+            "DC"
+        ],
+        "estDate": ""
+    },
+    {
+        "unitName": "Perry's Victory and International Peace Memorial",
+        "unitCode": "pevi",
+        "unitDesignation": "NMEM",
+        "state": [
+            "OH"
+        ],
+        "estDate": ""
+    },
+    {
+        "unitName": "Petersburg",
+        "unitCode": "pete",
+        "unitDesignation": "NB",
+        "state": [
+            "VA"
+        ],
+        "estDate": ""
+    },
+    {
+        "unitName": "Petrified Forest",
+        "unitCode": "pefo",
+        "unitDesignation": "NP",
+        "state": [
+            "AZ"
+        ],
+        "estDate": "1962-12-09"
+    },
+    {
+        "unitName": "Petroglyph",
+        "unitCode": "petr",
+        "unitDesignation": "NM",
+        "state": [
+            "NM"
+        ],
+        "estDate": ""
+    },
+    {
+        "unitName": "Pictured Rocks",
+        "unitCode": "piro",
+        "unitDesignation": "NL",
+        "state": [
+            "MI"
+        ],
+        "estDate": ""
+    },
+    {
+        "unitName": "Pinnacles",
+        "unitCode": "pinn",
+        "unitDesignation": "NP",
+        "state": [
+            "CA"
+        ],
+        "estDate": "2013-01-10"
+    },
+    {
+        "unitName": "Pipe Spring",
+        "unitCode": "pisp",
+        "unitDesignation": "NM",
+        "state": [
+            "AZ"
+        ],
+        "estDate": ""
+    },
+    {
+        "unitName": "Pipestone",
+        "unitCode": "pipe",
+        "unitDesignation": "NM",
+        "state": [
+            "MN"
+        ],
+        "estDate": ""
+    },
+    {
+        "unitName": "Piscataway Park",
+        "unitCode": "pisc",
+        "unitDesignation": "Other",
+        "state": [
+            "MD"
+        ],
+        "estDate": ""
+    },
+    {
+        "unitName": "Point Reyes",
+        "unitCode": "pore",
+        "unitDesignation": "NS",
+        "state": [
+            "CA"
+        ],
+        "estDate": ""
+    },
+    {
+        "unitName": "Port Chicago Naval Magazine National Memorial",
+        "unitCode": "poch",
+        "unitDesignation": "NMEM",
+        "state": [
+            "CA"
+        ],
+        "estDate": ""
+    },
+    {
+        "unitName": "Potomac Heritage National Scenic Trail",
+        "unitCode": "pohe",
+        "unitDesignation": "NST",
+        "state": [
+            "DC",
+            "MD",
+            "PA",
+            "VA"
+        ],
+        "estDate": ""
+    },
+    {
+        "unitName": "Poverty Point",
+        "unitCode": "popo",
+        "unitDesignation": "NM",
+        "state": [
+            "LA"
+        ],
+        "estDate": ""
+    },
+    {
+        "unitName": "President William Jefferson Clinton Birthplace Home",
+        "unitCode": "wicl",
+        "unitDesignation": "NHS",
+        "state": [
+            "AR"
+        ],
+        "estDate": ""
+    },
+    {
+        "unitName": "Prince William Forest Park",
+        "unitCode": "prwi",
+        "unitDesignation": "Other",
+        "state": [
+            "VA"
+        ],
+        "estDate": ""
+    },
+    {
+        "unitName": "Pu'uhonua o Hōnaunau",
+        "unitCode": "puho",
+        "unitDesignation": "NHP",
+        "state": [
+            "HI"
+        ],
+        "estDate": ""
+    },
+    {
+        "unitName": "Pullman National Monument",
+        "unitCode": "pull",
+        "unitDesignation": "NM",
+        "state": [
+            "IL"
+        ],
+        "estDate": ""
+    },
+    {
+        "unitName": "Puukoholā Heiau",
+        "unitCode": "puhe",
+        "unitDesignation": "NHS",
+        "state": [
+            "HI"
+        ],
+        "estDate": ""
+    },
+    {
+        "unitName": "Rainbow Bridge",
+        "unitCode": "rabr",
+        "unitDesignation": "NM",
+        "state": [
+            "VA"
+        ],
+        "estDate": ""
+    },
+    {
+        "unitName": "Redwood",
+        "unitCode": "redw",
+        "unitDesignation": "NP",
+        "state": [
+            "CA"
+        ],
+        "estDate": "1968-10-02"
+    },
+    {
+        "unitName": "Richmond",
+        "unitCode": "rich",
+        "unitDesignation": "NBP",
+        "state": [
+            "VA"
+        ],
+        "estDate": ""
+    },
+    {
+        "unitName": "Rio Grande Wild and Scenic River",
+        "unitCode": "rigr",
+        "unitDesignation": "National Wild and Scenic River",
+        "state": [
+            "TX"
+        ],
+        "estDate": ""
+    },
+    {
+        "unitName": "River Raisin",
+        "unitCode": "rira",
+        "unitDesignation": "NBP",
+        "state": [
+            "MI"
+        ],
+        "estDate": ""
+    },
+    {
+        "unitName": "Rock Creek Park",
+        "unitCode": "rocr",
+        "unitDesignation": "Other",
+        "state": [
+            "DC"
+        ],
+        "estDate": ""
+    },
+    {
+        "unitName": "Rocky Mountain",
+        "unitCode": "romo",
+        "unitDesignation": "NP",
+        "state": [
+            "CO"
+        ],
+        "estDate": "1915-01-26"
+    },
+    {
+        "unitName": "Roger Williams",
+        "unitCode": "rowi",
+        "unitDesignation": "NMEM",
+        "state": [
+            "RI"
+        ],
+        "estDate": ""
+    },
+    {
+        "unitName": "Rosie the Riveter/World War II Home Front",
+        "unitCode": "rori",
+        "unitDesignation": "NHP",
+        "state": [
+            "CA"
+        ],
+        "estDate": ""
+    },
+    {
+        "unitName": "Ross Lake",
+        "unitCode": "noca",
+        "unitDesignation": "NRA",
+        "state": [
+            "WA"
+        ],
+        "estDate": ""
+    },
+    {
+        "unitName": "Russell Cave",
+        "unitCode": "ruca",
+        "unitDesignation": "NM",
+        "state": [
+            "AL"
+        ],
+        "estDate": ""
+    },
+    {
+        "unitName": "Sagamore Hill",
+        "unitCode": "sahi",
+        "unitDesignation": "NHS",
+        "state": [
+            "NY"
+        ],
+        "estDate": ""
+    },
+    {
+        "unitName": "Saguaro",
+        "unitCode": "sagu",
+        "unitDesignation": "NP",
+        "state": [
+            "AZ"
+        ],
+        "estDate": "1994-10-14"
+    },
+    {
+        "unitName": "Saint Croix Island",
+        "unitCode": "sacr",
+        "unitDesignation": "International Historic Site",
+        "state": [
+            "ME"
+        ],
+        "estDate": ""
+    },
+    {
+        "unitName": "Saint Croix National Scenic Riverway",
+        "unitCode": "sacn",
+        "unitDesignation": "National Wild and Scenic River",
+        "state": [
+            "WI",
+            "MN"
+        ],
+        "estDate": ""
+    },
+    {
+        "unitName": "Saint Paul's Church",
+        "unitCode": "sapa",
+        "unitDesignation": "NHS",
+        "state": [
+            "NY"
+        ],
+        "estDate": ""
+    },
+    {
+        "unitName": "Saint-Gaudens",
+        "unitCode": "saga",
+        "unitDesignation": "NHS",
+        "state": [
+            "NH"
+        ],
+        "estDate": ""
+    },
+    {
+        "unitName": "Salem Maritime",
+        "unitCode": "sama",
+        "unitDesignation": "NHS",
+        "state": [
+            "MA"
+        ],
+        "estDate": ""
+    },
+    {
+        "unitName": "Salinas Pueblo Missions",
+        "unitCode": "sapu",
+        "unitDesignation": "NM",
+        "state": [
+            "NM"
+        ],
+        "estDate": ""
+    },
+    {
+        "unitName": "Salt River Bay NHP and Ecological Preserve",
+        "unitCode": "sari",
+        "unitDesignation": "NHP",
+        "state": [
+            "VI"
+        ],
+        "estDate": ""
+    },
+    {
+        "unitName": "San Antonio Missions",
+        "unitCode": "saan",
+        "unitDesignation": "NHP",
+        "state": [
+            "TX"
+        ],
+        "estDate": ""
+    },
+    {
+        "unitName": "San Francisco Maritime",
+        "unitCode": "safr",
+        "unitDesignation": "NHP",
+        "state": [
+            "CA"
+        ],
+        "estDate": ""
+    },
+    {
+        "unitName": "San Juan",
+        "unitCode": "saju",
+        "unitDesignation": "NHS",
+        "state": [
+            "PR"
+        ],
+        "estDate": ""
+    },
+    {
+        "unitName": "San Juan Island",
+        "unitCode": "sajh",
+        "unitDesignation": "NHP",
+        "state": [
+            "WA"
+        ],
+        "estDate": ""
+    },
+    {
+        "unitName": "Sand Creek Massacre",
+        "unitCode": "sand",
+        "unitDesignation": "NHS",
+        "state": [
+            "CO"
+        ],
+        "estDate": ""
+    },
+    {
+        "unitName": "Santa Monica Mountains",
+        "unitCode": "samo",
+        "unitDesignation": "NRA",
+        "state": [
+            "CA"
+        ],
+        "estDate": ""
+    },
+    {
+        "unitName": "Saratoga",
+        "unitCode": "sara",
+        "unitDesignation": "NHP",
+        "state": [
+            "NY"
+        ],
+        "estDate": ""
+    },
+    {
+        "unitName": "Saugus Iron Works",
+        "unitCode": "sair",
+        "unitDesignation": "NHS",
+        "state": [
+            "MA"
+        ],
+        "estDate": ""
+    },
+    {
+        "unitName": "Scotts Bluff",
+        "unitCode": "scbl",
+        "unitDesignation": "NM",
+        "state": [
+            "NE"
+        ],
+        "estDate": ""
+    },
+    {
+        "unitName": "Sequoia",
+        "unitCode": "seki",
+        "unitDesignation": "NP",
+        "state": [
+            "CA"
+        ],
+        "estDate": "1890-09-25"
+    },
+    {
+        "unitName": "Shenandoah",
+        "unitCode": "shen",
+        "unitDesignation": "NP",
+        "state": [
+            "VA"
+        ],
+        "estDate": "1926-05-22"
+    },
+    {
+        "unitName": "Shiloh",
+        "unitCode": "shil",
+        "unitDesignation": "National Military Park",
+        "state": [
+            "MS",
+            "TN"
+        ],
+        "estDate": ""
+    },
+    {
+        "unitName": "Sitka",
+        "unitCode": "sitk",
+        "unitDesignation": "NHP",
+        "state": [
+            "AK"
+        ],
+        "estDate": ""
+    },
+    {
+        "unitName": "Sleeping Bear Dunes",
+        "unitCode": "slbe",
+        "unitDesignation": "NL",
+        "state": [
+            "MI"
+        ],
+        "estDate": ""
+    },
+    {
+        "unitName": "Springfield Armory",
+        "unitCode": "spar",
+        "unitDesignation": "NHS",
+        "state": [
+            "MA"
+        ],
+        "estDate": ""
+    },
+    {
+        "unitName": "Statue of Liberty",
+        "unitCode": "stli",
+        "unitDesignation": "NM",
+        "state": [
+            "NY"
+        ],
+        "estDate": ""
+    },
+    {
+        "unitName": "Steamtown",
+        "unitCode": "stea",
+        "unitDesignation": "NHS",
+        "state": [
+            "PA"
+        ],
+        "estDate": ""
+    },
+    {
+        "unitName": "Stones River",
+        "unitCode": "stri",
+        "unitDesignation": "NB",
+        "state": [
+            "TN"
+        ],
+        "estDate": ""
+    },
+    {
+        "unitName": "Stonewall",
+        "unitCode": "ston",
+        "unitDesignation": "NM",
+        "state": [
+            "NY"
+        ],
+        "estDate": ""
+    },
+    {
+        "unitName": "Sunset Crater Volcano",
+        "unitCode": "sucr",
+        "unitDesignation": "NM",
+        "state": [
+            "AZ"
+        ],
+        "estDate": ""
+    },
+    {
+        "unitName": "Tallgrass Prairie",
+        "unitCode": "tapr",
+        "unitDesignation": "NPRES",
+        "state": [
+            "KS"
+        ],
+        "estDate": ""
+    },
+    {
+        "unitName": "Thaddeus Kosciuszko",
+        "unitCode": "thko",
+        "unitDesignation": "NMEM",
+        "state": [
+            "PA"
+        ],
+        "estDate": ""
+    },
+    {
+        "unitName": "Theodore Roosevelt",
+        "unitCode": "thro",
+        "unitDesignation": "NP",
+        "state": [
+            "ND"
+        ],
+        "estDate": "1978-11-10"
+    },
+    {
+        "unitName": "Theodore Roosevelt Birthplace",
+        "unitCode": "thrb",
+        "unitDesignation": "NHS",
+        "state": [
+            "NY"
+        ],
+        "estDate": ""
+    },
+    {
+        "unitName": "Theodore Roosevelt Inaugural",
+        "unitCode": "thri",
+        "unitDesignation": "NHS",
+        "state": [
+            "NY"
+        ],
+        "estDate": ""
+    },
+    {
+        "unitName": "Theodore Roosevelt Island",
+        "unitCode": "this",
+        "unitDesignation": "NMEM",
+        "state": [
+            "DC"
+        ],
+        "estDate": ""
+    },
+    {
+        "unitName": "Thomas Edison",
+        "unitCode": "edis",
+        "unitDesignation": "NHP",
+        "state": [
+            "NJ"
+        ],
+        "estDate": ""
+    },
+    {
+        "unitName": "Thomas Jefferson Memorial",
+        "unitCode": "thje",
+        "unitDesignation": "NMEM",
+        "state": [
+            "DC"
+        ],
+        "estDate": ""
+    },
+    {
+        "unitName": "Thomas Stone",
+        "unitCode": "thst",
+        "unitDesignation": "NHS",
+        "state": [
+            "MD"
+        ],
+        "estDate": ""
+    },
+    {
+        "unitName": "Timpanogos Cave",
+        "unitCode": "tica",
+        "unitDesignation": "NM",
+        "state": [
+            "UT"
+        ],
+        "estDate": ""
+    },
+    {
+        "unitName": "Timucuan Ecological and Historic Preserve",
+        "unitCode": "timu",
+        "unitDesignation": "NPRES",
+        "state": [
+            "FL"
+        ],
+        "estDate": ""
+    },
+    {
+        "unitName": "Tonto",
+        "unitCode": "tont",
+        "unitDesignation": "NM",
+        "state": [
+            "AZ"
+        ],
+        "estDate": ""
+    },
+    {
+        "unitName": "Tule Lake Unit Internment Camp ",
+        "unitCode": "tule",
+        "unitDesignation": "NM",
+        "state": [
+            "CA"
+        ],
+        "estDate": ""
+    },
+    {
+        "unitName": "Tule Springs Fossil Beds",
+        "unitCode": "tusk",
+        "unitDesignation": "NM",
+        "state": [
+            "NV"
+        ],
+        "estDate": ""
+    },
+    {
+        "unitName": "Tumacacori",
+        "unitCode": "tuma",
+        "unitDesignation": "NHP",
+        "state": [
+            "AZ"
+        ],
+        "estDate": ""
+    },
+    {
+        "unitName": "Tupelo",
+        "unitCode": "tupe",
+        "unitDesignation": "NB",
+        "state": [
+            "MS"
+        ],
+        "estDate": ""
+    },
+    {
+        "unitName": "Tuskegee Airmen",
+        "unitCode": "tuai",
+        "unitDesignation": "NHS",
+        "state": [
+            "AL"
+        ],
+        "estDate": ""
+    },
+    {
+        "unitName": "Tuskegee Institute",
+        "unitCode": "tuin",
+        "unitDesignation": "NHS",
+        "state": [
+            "AL"
+        ],
+        "estDate": ""
+    },
+    {
+        "unitName": "Tuzigoot",
+        "unitCode": "tuzi",
+        "unitDesignation": "NM",
+        "state": [
+            "AZ"
+        ],
+        "estDate": ""
+    },
+    {
+        "unitName": "Ulysses S. Grant",
+        "unitCode": "ulsg",
+        "unitDesignation": "NHS",
+        "state": [
+            "MO"
+        ],
+        "estDate": ""
+    },
+    {
+        "unitName": "Upper Delaware Scenic and Recreation River",
+        "unitCode": "upde",
+        "unitDesignation": "National Wild and Scenic River",
+        "state": [
+            "PA",
+            "NY"
+        ],
+        "estDate": ""
+    },
+    {
+        "unitName": "Valles Caldera",
+        "unitCode": "vall",
+        "unitDesignation": "NPRES",
+        "state": [
+            "NM"
+        ],
+        "estDate": ""
+    },
+    {
+        "unitName": "Valley Forge",
+        "unitCode": "vafo",
+        "unitDesignation": "NHP",
+        "state": [
+            "PA"
+        ],
+        "estDate": ""
+    },
+    {
+        "unitName": "Vanderbilt Mansion",
+        "unitCode": "vama",
+        "unitDesignation": "NHS",
+        "state": [
+            "NY"
+        ],
+        "estDate": ""
+    },
+    {
+        "unitName": "Vicksburg",
+        "unitCode": "vick",
+        "unitDesignation": "NMP",
+        "state": [
+            "MS"
+        ],
+        "estDate": ""
+    },
+    {
+        "unitName": "Vietnam Veterans Memorial",
+        "unitCode": "vive",
+        "unitDesignation": "NMEM",
+        "state": [
+            "DC"
+        ],
+        "estDate": ""
+    },
+    {
+        "unitName": "Virgin Islands",
+        "unitCode": "viis",
+        "unitDesignation": "NP",
+        "state": [
+            "VI"
+        ],
+        "estDate": "1956-08-02"
+    },
+    {
+        "unitName": "Virgin Islands Coral Reef",
+        "unitCode": "vicr",
+        "unitDesignation": "NM",
+        "state": [
+            "VI"
+        ],
+        "estDate": ""
+    },
+    {
+        "unitName": "Voyageurs",
+        "unitCode": "voya",
+        "unitDesignation": "NP",
+        "state": [
+            "MN"
+        ],
+        "estDate": "1971-01-08"
+    },
+    {
+        "unitName": "Waco Mammoth",
+        "unitCode": "waco",
+        "unitDesignation": "NM",
+        "state": [
+            "TX"
+        ],
+        "estDate": ""
+    },
+    {
+        "unitName": "Walnut Canyon",
+        "unitCode": "waca",
+        "unitDesignation": "NM",
+        "state": [
+            "AZ"
+        ],
+        "estDate": ""
+    },
+    {
+        "unitName": "War in the Pacific",
+        "unitCode": "wapa",
+        "unitDesignation": "NHP",
+        "state": [
+            "GU"
+        ],
+        "estDate": ""
+    },
+    {
+        "unitName": "Washington Monument",
+        "unitCode": "wamo",
+        "unitDesignation": "NMEM",
+        "state": [
+            "DC"
+        ],
+        "estDate": ""
+    },
+    {
+        "unitName": "Washita Battlefield",
+        "unitCode": "waba",
+        "unitDesignation": "NHS",
+        "state": [
+            "OK"
+        ],
+        "estDate": ""
+    },
+    {
+        "unitName": "Weir Farm",
+        "unitCode": "wefa",
+        "unitDesignation": "NHS",
+        "state": [
+            "FL"
+        ],
+        "estDate": ""
+    },
+    {
+        "unitName": "Whiskeytown Unit",
+        "unitCode": "whis",
+        "unitDesignation": "NRA",
+        "state": [
+            "CA"
+        ],
+        "estDate": ""
+    },
+    {
+        "unitName": "White House",
+        "unitCode": "whho",
+        "unitDesignation": "Other",
+        "state": [
+            "DC"
+        ],
+        "estDate": ""
+    },
+    {
+        "unitName": "White Sands",
+        "unitCode": "whsa",
+        "unitDesignation": "NM",
+        "state": [
+            "NM"
+        ],
+        "estDate": ""
+    },
+    {
+        "unitName": "Whitman Mission",
+        "unitCode": "whmi",
+        "unitDesignation": "NHS",
+        "state": [
+            "WA"
+        ],
+        "estDate": ""
+    },
+    {
+        "unitName": "William Howard Taft",
+        "unitCode": "wiho",
+        "unitDesignation": "NHS",
+        "state": [
+            "OH"
+        ],
+        "estDate": ""
+    },
+    {
+        "unitName": "Wilson's Creek",
+        "unitCode": "wicr",
+        "unitDesignation": "NB",
+        "state": [
+            "MO"
+        ],
+        "estDate": ""
+    },
+    {
+        "unitName": "Wind Cave",
+        "unitCode": "wica",
+        "unitDesignation": "NP",
+        "state": [
+            "SD"
+        ],
+        "estDate": "1903-01-09"
+    },
+    {
+        "unitName": "Wolf Trap National Park for the Performing Arts",
+        "unitCode": "wotr",
+        "unitDesignation": "Other",
+        "state": [
+            "VA"
+        ],
+        "estDate": ""
+    },
+    {
+        "unitName": "Women's Rights",
+        "unitCode": "wori",
+        "unitDesignation": "NHP",
+        "state": [
+            "NY"
+        ],
+        "estDate": ""
+    },
+    {
+        "unitName": "World War I Memorial",
+        "unitCode": "nama",
+        "unitDesignation": "NMEM",
+        "state": [
+            "DC"
+        ],
+        "estDate": ""
+    },
+    {
+        "unitName": "World War II Memorial",
+        "unitCode": "wwii",
+        "unitDesignation": "NMEM",
+        "state": [
+            "DC"
+        ],
+        "estDate": ""
+    },
+    {
+        "unitName": "World War II Valor in the Pacific",
+        "unitCode": "valr",
+        "unitDesignation": "NM",
+        "state": [
+            "HI"
+        ],
+        "estDate": ""
+    },
+    {
+        "unitName": "Wrangell-St. Elias National Park",
+        "unitCode": "wrst",
+        "unitDesignation": "NP",
+        "state": [
+            "AK"
+        ],
+        "estDate": "1980-12-02"
+    },
+    {
+        "unitName": "Wrangell-St. Elias National Preserve",
+        "unitCode": "wrst",
+        "unitDesignation": "NPRES",
+        "state": [
+            "AK"
+        ],
+        "estDate": ""
+    },
+    {
+        "unitName": "Wright Brothers",
+        "unitCode": "wrbr",
+        "unitDesignation": "NMEM",
+        "state": [
+            "NC"
+        ],
+        "estDate": ""
+    },
+    {
+        "unitName": "Wupatki",
+        "unitCode": "wupa",
+        "unitDesignation": "NM",
+        "state": [
+            "AZ"
+        ],
+        "estDate": ""
+    },
+    {
+        "unitName": "Yellowstone",
+        "unitCode": "yell",
+        "unitDesignation": "NP",
+        "state": [
+            "WY",
+            "MT",
+            "ID"
+        ],
+        "estDate": "1872-03-01"
+    },
+    {
+        "unitName": "Yosemite",
+        "unitCode": "yose",
+        "unitDesignation": "NP",
+        "state": [
+            "CA"
+        ],
+        "estDate": "1890-10-01"
+    },
+    {
+        "unitName": "Yucca House",
+        "unitCode": "yuho",
+        "unitDesignation": "NM",
+        "state": [
+            "CO"
+        ],
+        "estDate": ""
+    },
+    {
+        "unitName": "Yukon-Charley Rivers",
+        "unitCode": "yuch",
+        "unitDesignation": "NPRES",
+        "state": [
+            "AK"
+        ],
+        "estDate": ""
+    },
+    {
+        "unitName": "Zion",
+        "unitCode": "zion",
+        "unitDesignation": "NP",
+        "state": [
+            "UT"
+        ],
+        "estDate": "1919-11-19"
+    }
+]
