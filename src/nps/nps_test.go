@@ -14,5 +14,8 @@ func TestGetAlert(t *testing.T) {
 
 	c, _ := NewClient()
 
-	assert.NotNil(c)
+	alert, err := c.GetAlert("MT")
+
+	assert.NotNil(alert)
+	assert.Nil(err)
 }

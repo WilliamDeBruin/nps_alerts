@@ -1,6 +1,7 @@
 package config
 
 import (
+	_ "embed"
 	"fmt"
 	"reflect"
 	"strconv"
@@ -16,9 +17,6 @@ type Configuration struct {
 	TwilioFromNumber string `envconfig:"TWILIO_FROM_NUMBER" required:"true"`
 	TwilioAccountSID string `envconfig:"TWILIO_ACCOUNT_SID" required:"true"`
 	TwilioAuthToken  string `envconfig:"TWILIO_AUTH_TOKEN" required:"true"`
-
-	// LogLevel sets the level for leveled logs. Options are debug, info, warning, error
-	LogLevel string `envconfig:"LOG_LEVEL" required:"false" default:"info"`
 
 	// ServiceHost is used in integration tests.
 	ServiceHost string `envconfig:"SERVICE_HOST" required:"false" default:"127.0.0.1"`

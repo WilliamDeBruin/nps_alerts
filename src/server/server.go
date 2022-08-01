@@ -73,13 +73,11 @@ func (s *Server) listen(listener net.Listener) {
 	router.Get("/health", s.HealthHandler)
 	router.Post("/incoming-sms", s.IncomingSmsHandler)
 
-	// re-discover what port we are on. If config was to port :0, this will allow us to know what port we bound to
 	port := listener.Addr().(*net.TCPAddr).Port
 	s.port = fmt.Sprintf("%d", port)
 	s.logger.Info(fmt.Sprintf("listening on %d", port))
 
 	s.httpServer = &http.Server{Addr: fmt.Sprintf(":%d", port), Handler: router}
-	// TODO add timeouts to config
 	s.httpServer.WriteTimeout = 1 * time.Minute
 	s.httpServer.ReadTimeout = 1 * time.Minute
 

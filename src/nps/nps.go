@@ -7,6 +7,7 @@ import (
 	"net/http"
 	"net/url"
 	"os"
+	"strings"
 	"time"
 )
 
@@ -21,6 +22,8 @@ const (
 	baseURL             = "https://developer.nps.gov/api/v1/alerts"
 	stateCodeFileName   = "nps/state_codes.json"
 	parkDetailsFileName = "nps/parks.json"
+
+	alertsUrl = "https://www.nps.gov/planyourvisit/alerts.htm?s=%s&p=1&v=0"
 )
 
 type fetcher struct {
@@ -31,9 +34,7 @@ type fetcher struct {
 }
 
 type Client interface {
-	GetAlert(stateCode string) (*alertResponse, error)
-	StateCodeToState(stateCode string) (string, error)
-	ParkCodeToFullParkName(parkCode string) (string, error)
+	GetAlert(stateCode string) (*AlertDetails, error)
 }
 
 type alertResponse struct {
@@ -57,6 +58,15 @@ type parkDetails struct {
 	UnitDesignation string   `json:"unitDesignation,omitempty"`
 	State           []string `json:"state,omitempty"`
 	EstDate         string   `json:"estDate,omitempty"`
+}
+
+type AlertDetails struct {
+	FullStateName   string
+	FullParkName    string
+	RecentAlertDate string
+	AlertHeader     string
+	AlertMessage    string
+	URL             string
 }
 
 func NewClient() (Client, error) {
@@ -91,7 +101,10 @@ func NewClient() (Client, error) {
 	}, nil
 }
 
-func (f *fetcher) GetAlert(stateCode string) (*alertResponse, error) {
+func (f *fetcher) GetAlert(stateCode string) (*AlertDetails, error) {
+
+	stateCode = strings.ToUpper(stateCode)
+
 	if !f.stateCodeIsValid(stateCode) {
 		return nil, fmt.Errorf("state code %s is not a valid state code", stateCode)
 	}
@@ -104,6 +117,7 @@ func (f *fetcher) GetAlert(stateCode string) (*alertResponse, error) {
 
 	q := url.Values{}
 	q.Add("stateCode", stateCode)
+	req.URL.RawQuery = q.Encode()
 
 	req.Header.Add("x-api-key", f.apiKey)
 
@@ -115,7 +129,7 @@ func (f *fetcher) GetAlert(stateCode string) (*alertResponse, error) {
 
 	defer res.Body.Close()
 
-	var alertResponse *alertResponse
+	alertResponse := &alertResponse{}
 
 	err = json.NewDecoder(res.Body).Decode(alertResponse)
 
@@ -123,7 +137,17 @@ func (f *fetcher) GetAlert(stateCode string) (*alertResponse, error) {
 		return nil, err
 	}
 
-	return alertResponse, nil
+	fullState, _ := f.stateCodeToState(stateCode)
+	fullParkName, _ := f.parkCodeToFullParkName(alertResponse.Data[0].ParkCode)
+
+	return &AlertDetails{
+		FullStateName:   fullState,
+		FullParkName:    fullParkName,
+		RecentAlertDate: alertResponse.Data[0].LastIndexedDate,
+		AlertHeader:     alertResponse.Data[0].Title,
+		AlertMessage:    alertResponse.Data[0].Description,
+		URL:             fmt.Sprintf(alertsUrl, stateCode),
+	}, nil
 }
 
 func (f *fetcher) stateCodeIsValid(stateCode string) (ok bool) {
@@ -131,14 +155,14 @@ func (f *fetcher) stateCodeIsValid(stateCode string) (ok bool) {
 	return
 }
 
-func (f *fetcher) StateCodeToState(stateCode string) (string, error) {
+func (f *fetcher) stateCodeToState(stateCode string) (string, error) {
 	if stateName, ok := f.stateCodes[stateCode]; ok {
 		return stateName, nil
 	}
 	return "", fmt.Errorf("cannot find state code %s in list", stateCode)
 }
 
-func (f *fetcher) ParkCodeToFullParkName(parkCode string) (string, error) {
+func (f *fetcher) parkCodeToFullParkName(parkCode string) (string, error) {
 	for _, v := range *f.parks {
 		if v.UnitCode == parkCode {
 			return v.UnitName, nil

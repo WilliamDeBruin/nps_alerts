@@ -3,10 +3,9 @@ package server
 import (
 	"fmt"
 	"net/http"
-	"strconv"
 	"strings"
 
-	"github.com/WilliamDeBruin/nps_alerts/src/twilio"
+	"go.uber.org/zap"
 )
 
 const (
@@ -85,17 +84,25 @@ func (s *Server) alertHandler(w http.ResponseWriter, r *http.Request) {
 		return
 	}
 
-	alert, err := s.npsClient.GetAlert(words[1])
+	stateCode := words[1]
+
+	alert, err := s.npsClient.GetAlert(stateCode)
 
 	if err != nil {
 		s.logger.Error(err.Error())
 		w.WriteHeader(http.StatusInternalServerError)
+		return
 	}
 
-	alertResponseParams := &twilio.AlertMessageParams{
-		To:              from,
-		NumRecentAlerts: strconv.Itoa(len(alert.Data)),
+	s.logger.Info("alert response", zap.Any("alertResponse", alert))
+
+	err = s.twilioClient.SendAlert(from, alert)
+
+	if err != nil {
+		s.logger.Error(err.Error())
+		w.WriteHeader(http.StatusInternalServerError)
+		return
 	}
 
-	fmt.Println(alertResponseParams)
+	fmt.Println(alert)
 }

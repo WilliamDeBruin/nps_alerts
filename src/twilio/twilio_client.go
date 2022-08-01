@@ -4,6 +4,7 @@ import (
 	"encoding/json"
 	"fmt"
 
+	"github.com/WilliamDeBruin/nps_alerts/src/nps"
 	"github.com/twilio/twilio-go"
 	openapi "github.com/twilio/twilio-go/rest/api/v2010"
 )
@@ -14,8 +15,8 @@ const (
 	authTokenEnvKey   = "TWILIO_AUTH_TOKEN"
 	fromPhoneEnvKey   = "TWILIO_FROM_PHONE_NUMBER"
 
-	helpMessage  = "Welcome to NPS alerts! Here is a list of commands:\nHelp: receive this help text\nAlerts {state}: Text \"alerts\" followed by the 2-letter state code of the state you would like to see alerts for"
-	alertMessage = "There are %s new alerts today for %s s. Here is the most recent NPS %s alert from %s, published %s:\n%s\n%s\n\nFor a full list of NPS %s alerts, visit %s"
+	helpMessage  = "Welcome to NPS alerts! Here is a list of commands:\n\nHelp: receive this help text\n\nAlerts {state}: Text \"alerts\" followed by the 2-letter state code of the state you would like to see alerts for"
+	alertMessage = "Here is the most recent NPS %s alert from %s, published %s:\n\n%s\n\n%s\n\nFor a full list of NPS %s alerts, visit %s"
 )
 
 type TwilioRestClientApi interface {
@@ -25,17 +26,6 @@ type TwilioRestClientApi interface {
 type Client struct {
 	api        TwilioRestClientApi
 	fromNumber string
-}
-
-type AlertMessageParams struct {
-	To              string
-	NumRecentAlerts string
-	FullStateName   string
-	FullParkName    string
-	RecentAlertDate string
-	AlertHeader     string
-	AlertMessage    string
-	URL             string
 }
 
 func NewClient(fromNumber string) (*Client, error) {
@@ -77,10 +67,8 @@ func (c *Client) SendHelp(to string) error {
 	return c.SendMessage(to, helpMessage)
 }
 
-func (c *Client) SendAlert(params AlertMessageParams) error {
+func (c *Client) SendAlert(to string, params *nps.AlertDetails) error {
 	message := fmt.Sprintf(alertMessage,
-		params.NumRecentAlerts,
-		params.FullStateName,
 		params.FullStateName,
 		params.FullParkName,
 		params.RecentAlertDate,
@@ -89,7 +77,7 @@ func (c *Client) SendAlert(params AlertMessageParams) error {
 		params.FullStateName,
 		params.URL)
 
-	return c.SendMessage(params.To, message)
+	return c.SendMessage(to, message)
 }
 
 func (c *Client) SendAlertErr(to string) error {
