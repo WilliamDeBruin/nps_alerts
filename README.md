@@ -2,6 +2,46 @@
 
 A simple app to use the Twilio SDK to request and send alerts from the National Parks Service related to national parks.
 
+## Local Development 
+
+### Local Environment Setup
+`Make run` injects environment variables at runtime using `.env`. See [sample.env](./sample.env) for required variables.
+
+### Run Locally 
+
+Run `make build` to build the docker image and tag it `nps-alerts`
+
+Run `make run` to run the container locally & expose port `8080`
+
+Use the following cURL commands to simulate incoming SMS messages:
+
+> Note: the `from` phone number must be verified via before it can be used as the recepient of an SMS for a trial account
+
+#### Help text 
+
+Use the following cURL to simulate a help sms incoming
+```sh
+curl --location --request POST 'localhost:8080/incoming-sms' \
+    --header 'Content-Type: application/x-www-form-urlencoded' \
+    --data-urlencode 'body=help' \
+    --data-urlencode 'from=+12407439754'
+```
+
+#### Send Alert Message
+
+Use the following cURL to simulate an alert sms incoming 
+```sh
+curl --location --request POST 'localhost:8080/incoming-sms' \
+    --header 'Content-Type: application/x-www-form-urlencoded' \
+    --data-urlencode 'body=alerts UT' \
+    --data-urlencode 'from=+12407439754'
+```
+
+#### Get Application Health
+```sh
+curl --location --request GET 'localhost:8080/health'
+```
+
 ## Usage
 
 The app is interacted with via SMS. The following functionality is available:
