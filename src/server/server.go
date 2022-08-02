@@ -2,7 +2,6 @@ package server
 
 import (
 	"fmt"
-	"log"
 	"net"
 	"net/http"
 	"os"
@@ -34,12 +33,12 @@ func NewServer(
 
 	twilioClient, err := twilio.NewClient(cfg.TwilioFromNumber)
 	if err != nil {
-		log.Fatalf("error initializing twilio client: %s", err)
+		return nil, fmt.Errorf("error initializing twilio client: %s", err)
 	}
 
-	npsClient, err := nps.NewClient()
+	npsClient, err := nps.NewClient(cfg.NPSApiKey)
 	if err != nil {
-		log.Fatalf("error initializing nps client: %s", err)
+		return nil, fmt.Errorf("error initializing nps client: %s", err)
 	}
 
 	s := &Server{

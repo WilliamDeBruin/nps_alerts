@@ -20,6 +20,8 @@ type Configuration struct {
 
 	// ServiceHost is used in integration tests.
 	ServiceHost string `envconfig:"SERVICE_HOST" required:"false" default:"127.0.0.1"`
+
+	NPSApiKey string `envconfig:"NPS_API_KEY" required:"true"`
 }
 
 // ToJSON returns a json formatted version of the configuration with

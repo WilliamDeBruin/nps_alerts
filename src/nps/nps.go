@@ -6,7 +6,6 @@ import (
 	"fmt"
 	"net/http"
 	"net/url"
-	"os"
 	"strings"
 	"time"
 )
@@ -35,21 +34,24 @@ type fetcher struct {
 
 type Client interface {
 	GetAlert(stateCode string) (*AlertDetails, error)
+	SetTransport(http.RoundTripper)
 }
 
 type alertResponse struct {
-	Total string `json:"total,omitempty"`
-	Limit string `json:"limit,omitempty"`
-	Start string `json:"start,omitempty"`
-	Data  []struct {
-		ID              string `json:"id,omitempty"`
-		URL             string `json:"url,omitempty"`
-		Title           string `json:"title,omitempty"`
-		ParkCode        string `json:"parkCode,omitempty"`
-		Description     string `json:"description,omitempty"`
-		Category        string `json:"category,omitempty"`
-		LastIndexedDate string `json:"lastIndexedDate,omitempty"`
-	} `json:"data,omitempty"`
+	Total string     `json:"total,omitempty"`
+	Limit string     `json:"limit,omitempty"`
+	Start string     `json:"start,omitempty"`
+	Data  []npsAlert `json:"data,omitempty"`
+}
+
+type npsAlert struct {
+	ID              string `json:"id,omitempty"`
+	URL             string `json:"url,omitempty"`
+	Title           string `json:"title,omitempty"`
+	ParkCode        string `json:"parkCode,omitempty"`
+	Description     string `json:"description,omitempty"`
+	Category        string `json:"category,omitempty"`
+	LastIndexedDate string `json:"lastIndexedDate,omitempty"`
 }
 
 type parkDetails struct {
@@ -69,12 +71,10 @@ type AlertDetails struct {
 	URL             string
 }
 
-func NewClient() (Client, error) {
+func NewClient(apiKey string) (Client, error) {
 
-	apiKey, ok := os.LookupEnv(apiKeyEnvKey)
-
-	if !ok {
-		return nil, fmt.Errorf("env key missing: %s", apiKeyEnvKey)
+	if apiKey == "" {
+		return nil, fmt.Errorf("apiKey cannot be empty")
 	}
 
 	c := &http.Client{
@@ -103,17 +103,13 @@ func NewClient() (Client, error) {
 
 func (f *fetcher) GetAlert(stateCode string) (*AlertDetails, error) {
 
-	stateCode = strings.ToUpper(stateCode)
+	fullStateName, err := f.stateCodeToState(strings.ToUpper(stateCode))
 
-	if !f.stateCodeIsValid(stateCode) {
+	if err != nil {
 		return nil, fmt.Errorf("state code %s is not a valid state code", stateCode)
 	}
 
-	req, err := http.NewRequest("GET", baseURL, nil)
-
-	if err != nil {
-		return nil, err
-	}
+	req, _ := http.NewRequest("GET", baseURL, nil)
 
 	q := url.Values{}
 	q.Add("stateCode", stateCode)
@@ -137,22 +133,20 @@ func (f *fetcher) GetAlert(stateCode string) (*AlertDetails, error) {
 		return nil, err
 	}
 
-	fullState, _ := f.stateCodeToState(stateCode)
-	fullParkName, _ := f.parkCodeToFullParkName(alertResponse.Data[0].ParkCode)
+	fullParkName, err := f.parkCodeToFullParkName(alertResponse.Data[0].ParkCode)
+
+	if err != nil {
+		return nil, fmt.Errorf("cannot find details for park code %s", alertResponse.Data[0].ParkCode)
+	}
 
 	return &AlertDetails{
-		FullStateName:   fullState,
+		FullStateName:   fullStateName,
 		FullParkName:    fullParkName,
 		RecentAlertDate: alertResponse.Data[0].LastIndexedDate,
 		AlertHeader:     alertResponse.Data[0].Title,
 		AlertMessage:    alertResponse.Data[0].Description,
 		URL:             fmt.Sprintf(alertsUrl, stateCode),
 	}, nil
-}
-
-func (f *fetcher) stateCodeIsValid(stateCode string) (ok bool) {
-	_, ok = f.stateCodes[stateCode]
-	return
 }
 
 func (f *fetcher) stateCodeToState(stateCode string) (string, error) {
@@ -169,4 +163,8 @@ func (f *fetcher) parkCodeToFullParkName(parkCode string) (string, error) {
 		}
 	}
 	return "", fmt.Errorf("cannot find park code %s in list", parkCode)
+}
+
+func (f *fetcher) SetTransport(transport http.RoundTripper) {
+	f.httpClient.Transport = transport
 }

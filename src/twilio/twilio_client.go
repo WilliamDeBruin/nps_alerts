@@ -29,6 +29,11 @@ type Client struct {
 }
 
 func NewClient(fromNumber string) (*Client, error) {
+
+	if fromNumber == "" {
+		return nil, fmt.Errorf("fromNumber cannot be empty")
+	}
+
 	client := twilio.NewRestClient()
 	return &Client{
 		api:        client.Api,
