@@ -2,12 +2,8 @@ package config
 
 import (
 	_ "embed"
-	"fmt"
-	"reflect"
-	"strconv"
 	"strings"
 
-	"github.com/WilliamDeBruin/nps_alerts/src/common"
 	"github.com/kelseyhightower/envconfig"
 )
 
@@ -22,28 +18,6 @@ type Configuration struct {
 	ServiceHost string `envconfig:"SERVICE_HOST" required:"false" default:"127.0.0.1"`
 
 	NPSApiKey string `envconfig:"NPS_API_KEY" required:"true"`
-}
-
-// ToJSON returns a json formatted version of the configuration with
-// sensitive field redacted. To redact a field, add a json tag of `redact:"true"`
-func (c *Configuration) ToJSON() string {
-	if c == nil {
-		return "null" // json for nil
-	}
-	ret := make(map[string]string)
-	// We know c is of type struct, which allows us to safely use the reflect package to access
-	// its members (along with the it's tags i.e. the metadata between the back-ticks)
-	cfg := reflect.ValueOf(c).Elem()
-	for i := 0; i < cfg.NumField(); i++ {
-		name := cfg.Type().Field(i).Name
-		val := fmt.Sprintf("%v", cfg.Field(i).Interface())
-		tag := cfg.Type().Field(i).Tag.Get("redact")
-		if redact, err := strconv.ParseBool(tag); err == nil && redact {
-			val = "****"
-		}
-		ret[name] = val
-	}
-	return common.ToJSON(ret)
 }
 
 // LoadConfig loads environment variables with the prefix

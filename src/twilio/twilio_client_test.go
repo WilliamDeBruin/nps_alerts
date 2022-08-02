@@ -41,7 +41,7 @@ func TestSendMessageSuccess(t *testing.T) {
 	}
 
 	c := &Client{
-		api: &mockTwilioRestApi{
+		API: &mockTwilioRestApi{
 			mockCreateMessage: mockCreateMessage,
 		},
 	}
@@ -59,7 +59,7 @@ func TestSendMessageFail(t *testing.T) {
 	}
 
 	c := &Client{
-		api: &mockTwilioRestApi{
+		API: &mockTwilioRestApi{
 			mockCreateMessage: mockCreateMessage,
 		},
 	}
@@ -82,7 +82,7 @@ func TestSendMessageErrorCode(t *testing.T) {
 	}
 
 	c := &Client{
-		api: &mockTwilioRestApi{
+		API: &mockTwilioRestApi{
 			mockCreateMessage: mockCreateMessage,
 		},
 	}
@@ -100,7 +100,7 @@ func TestSendHelp(t *testing.T) {
 	}
 
 	c := &Client{
-		api: &mockTwilioRestApi{
+		API: &mockTwilioRestApi{
 			mockCreateMessage: mockCreateMessage,
 		},
 	}

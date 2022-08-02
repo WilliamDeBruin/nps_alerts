@@ -19,7 +19,7 @@ import (
 )
 
 type Server struct {
-	twilioClient *twilio.Client
+	twilioClient twilio.Client
 	npsClient    nps.Client
 	httpServer   *http.Server
 	port         string

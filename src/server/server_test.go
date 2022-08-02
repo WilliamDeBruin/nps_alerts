@@ -44,3 +44,13 @@ func TestNewServerMissingParams(t *testing.T) {
 	assert.EqualError(err, "error initializing nps client: apiKey cannot be empty")
 
 }
+
+// func TestListen(t *testing.T) {
+// 	assert := assert.New(t)
+
+// 	cfg := &config.Configuration{}
+// 	logger := zaptest.NewLogger(t)
+
+// 	s, err := NewServer(cfg, logger)
+
+// }
