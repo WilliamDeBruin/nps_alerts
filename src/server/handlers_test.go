@@ -115,16 +115,34 @@ func TestIncomingSmsAlert(t *testing.T) {
 
 	r := httptest.NewRequest("POST", "http://example.com/", strings.NewReader(data.Encode()))
 	w := httptest.NewRecorder()
-	r.Header.Set("Content-Type", "application/x-www-form-urlencodedddd")
+	r.Header.Set("Content-Type", "application/x-www-form-urlencoded")
+
+	mockNpsClient := &mockNpsClient{}
+	mockNpsClient.getAlertResponse = &nps.AlertDetails{
+		FullStateName:   "TEST_FULL_STATE_NAME",
+		FullParkName:    "TEST_FULL_PARK_NAME",
+		RecentAlertDate: "TEST_DATE",
+		AlertHeader:     "TEST_HEADER",
+		AlertMessage:    "TEST_MESSAGE",
+		URL:             "TEST_URL",
+	}
+
+	mockTwilioClient := &mockTwilioClient{}
+	mockTwilioClient.sendMessageErr = nil
+
+	core, logs := observer.New(zap.InfoLevel)
+	logger := zap.New(core)
 
 	s := Server{
-		npsClient:    &mockNpsClient{},
-		twilioClient: &mockTwilioClient{},
+		npsClient:    mockNpsClient,
+		twilioClient: mockTwilioClient,
+		logger:       logger,
 	}
 
 	s.IncomingSmsHandler(w, r)
 
-	assert.True(true)
+	assert.Equal(logs.All()[0].Message, "alert response")
+	assert.Equal(w.Result().StatusCode, http.StatusOK)
 }
 
 func TestIncomingSmsInvalidContentType(t *testing.T) {
