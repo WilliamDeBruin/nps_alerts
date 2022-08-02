@@ -8,13 +8,6 @@ import (
 	openapi "github.com/twilio/twilio-go/rest/api/v2010"
 )
 
-const (
-	PhoneNumberEnvKey = "TWILIO_PHONE_NUMBER"
-	accountSIDEnvKey  = "TWILIO_ACCOUNT_SID"
-	authTokenEnvKey   = "TWILIO_AUTH_TOKEN"
-	fromPhoneEnvKey   = "TWILIO_FROM_PHONE_NUMBER"
-)
-
 type TwilioRestClientApi interface {
 	CreateMessage(params *openapi.CreateMessageParams) (*openapi.ApiV2010Message, error)
 }

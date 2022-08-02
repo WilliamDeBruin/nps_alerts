@@ -17,10 +17,7 @@ var stateCodesContent []byte
 var parksDetailsContent []byte
 
 const (
-	apiKeyEnvKey        = "NPS_API_KEY"
-	baseURL             = "https://developer.nps.gov/api/v1/alerts"
-	stateCodeFileName   = "nps/state_codes.json"
-	parkDetailsFileName = "nps/parks.json"
+	baseURL = "https://developer.nps.gov/api/v1/alerts"
 
 	alertsUrl = "https://www.nps.gov/planyourvisit/alerts.htm?s=%s&p=1&v=0"
 )

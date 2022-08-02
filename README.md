@@ -27,14 +27,10 @@ Users can text `"alerts {state}"` where `{state}` is a valid 2-letter state code
 ```
 > Alerts CA
 
-> There are 0 new alerts today for California parks. Here is the most recent NPS California alert from Alcatraz Island, released 2022-06-07 17:55:48.0:
+> Here is the most recent NPS California alert from Alcatraz Island, released 2022-06-07 17:55:48.0:
 > 
 >  Face masks are required indoors
 > Masks are required for everyone in all NPS buildings and enclosed public transportation, regardless of vaccination status.
 >
 > For a full list of NPS California alerts, visit https://www.nps.gov/planyourvisit/alerts.htm?s=CA&p=1&v=0
 ```
-
-# Local Development 
-
-## Setup
