@@ -2,7 +2,6 @@ package twilio
 
 import (
 	"errors"
-	"os"
 	"testing"
 
 	"github.com/stretchr/testify/assert"
@@ -20,19 +19,19 @@ func (m *mockTwilioRestApi) CreateMessage(params *openapi.CreateMessageParams) (
 func TestNewClientSuccess(t *testing.T) {
 	assert := assert.New(t)
 
-	os.Setenv(accountSIDEnvKey, "TEST_SID")
-	defer os.Unsetenv(accountSIDEnvKey)
-
-	os.Setenv(authTokenEnvKey, "TEST_AUTH_TOKEN")
-	defer os.Unsetenv(authTokenEnvKey)
-
-	os.Setenv(fromPhoneEnvKey, "TEST_FROM_PHONE")
-	defer os.Unsetenv(fromPhoneEnvKey)
-
 	c, err := NewClient("TEST_NUMBER")
 
 	assert.NotNil(c)
 	assert.Nil(err)
+}
+
+func TestNewClientErr(t *testing.T) {
+	assert := assert.New(t)
+
+	c, err := NewClient("")
+
+	assert.Nil(c)
+	assert.EqualError(err, "fromNumber cannot be empty")
 }
 func TestSendMessageSuccess(t *testing.T) {
 	assert := assert.New(t)
