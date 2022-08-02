@@ -40,7 +40,7 @@ func TestSendMessageSuccess(t *testing.T) {
 		return &openapi.ApiV2010Message{}, nil
 	}
 
-	c := &Client{
+	c := &fetcher{
 		API: &mockTwilioRestApi{
 			mockCreateMessage: mockCreateMessage,
 		},
@@ -58,7 +58,7 @@ func TestSendMessageFail(t *testing.T) {
 		return &openapi.ApiV2010Message{}, errors.New("something went wrong!")
 	}
 
-	c := &Client{
+	c := &fetcher{
 		API: &mockTwilioRestApi{
 			mockCreateMessage: mockCreateMessage,
 		},
@@ -81,7 +81,7 @@ func TestSendMessageErrorCode(t *testing.T) {
 		}, nil
 	}
 
-	c := &Client{
+	c := &fetcher{
 		API: &mockTwilioRestApi{
 			mockCreateMessage: mockCreateMessage,
 		},
@@ -90,22 +90,4 @@ func TestSendMessageErrorCode(t *testing.T) {
 	err := c.SendMessage("123456", "TEST_MESSAGE")
 
 	assert.EqualError(err, "error in Twilio CreateMessage.\n\nError code: 12345\n\nError Message: something else went wrong")
-}
-
-func TestSendHelp(t *testing.T) {
-	assert := assert.New(t)
-
-	mockCreateMessage := func(params *openapi.CreateMessageParams) (*openapi.ApiV2010Message, error) {
-		return &openapi.ApiV2010Message{}, nil
-	}
-
-	c := &Client{
-		API: &mockTwilioRestApi{
-			mockCreateMessage: mockCreateMessage,
-		},
-	}
-
-	err := c.SendHelp("123456")
-
-	assert.Nil(err)
 }
